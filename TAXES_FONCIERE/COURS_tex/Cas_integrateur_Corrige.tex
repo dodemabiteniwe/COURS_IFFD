@@ -1,0 +1,216 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{geometry}
+\geometry{margin=2.3cm}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue}
+
+% Réduire les warnings de boîtes trop pleines/vides
+\emergencystretch=3em
+
+% Listes
+\setlist[itemize]{left=0pt,label=--,itemsep=3pt,topsep=3pt}
+\setlist[enumerate]{itemsep=4pt,topsep=4pt}
+
+% Macros
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\Tref}{T_{\mathrm{ref}}}
+\newcommand{\Caff}{C_{\mathrm{aff}}}
+\newcommand{\Caffx}[1]{C_{\mathrm{aff},#1}} % <- pour éviter double subscript
+\newcommand{\Ca}{C_{a}}
+\newcommand{\VL}{\mathrm{VL}}
+\newcommand{\VR}{\mathrm{V_{ret}}}
+\newcommand{\VD}{\mathrm{V_{d\acute ecl}}}
+\newcommand{\Base}{\mathrm{Base}}
+\newcommand{\TFPB}{\mathrm{TFPB}}
+\newcommand{\TFPNB}{\mathrm{TFPNB}}
+\newcommand{\TaxHab}{\mathrm{TH}} % <- remplace \TH (conflit avec la lettre Thorn)
+
+\title{\Large\bfseries Corrigé détaillé\\
+	\large Cas Pratique Intégrateur — Fiscalité foncière}
+\author{Méthode simplifiée d'évaluation cadastrale, Taxe d'habitation et changements}
+\date{}
+
+\begin{document}
+	\maketitle
+	
+	\section*{Rappels de méthode (cours)}
+	\begin{itemize}
+		\item \(\VL_{\text{bâti}} = \Tref \times \Caff \times \Ca \times 12\) ;\quad
+		\(\VL_{\text{non bâti}} = \text{Superficie} \times \Tref\).
+		\item \(\VD =\) (loyer mensuel total) \(\times 12\). À défaut, \(\VD = \VL\).
+		\item \(\VR = \max(\VL,\VD)\).
+		\item Base d'imposition : \(\Base = 0{,}5\,\VR\) (bâti) ; \(\Base = \VR\) (non bâti).
+		\item Impôts estimés : \(\TFPB = 7{,}5\% \times \Base\) ; \(\TFPNB = 0{,}5\% \times \Base\).
+		\item Extraits opérationnels pour \(\Ca\) :
+		\[
+		\begin{aligned}
+			\text{Bâtiment à étage }(n\ge 1):\quad & \Ca=0{,}5\,(n+1)+0{,}25\cdot \floor{\tfrac{|\text{Surf}-600|}{600}}\\
+			\text{Villa/maison simple}:\quad & \Ca=1+0{,}25\cdot \floor{\tfrac{|\text{Surf}-600|}{600}}\\
+			\text{Hangar/baraque}:\quad & \Ca=1+\floor{\tfrac{|\text{Surf}-150|}{150}}
+		\end{aligned}
+		\]
+	\end{itemize}
+	
+	\paragraph{Paramètres fournis au sujet.}
+	\(\Caff\) : Habitation \(=1{,}00\) ; Commerce \(=1{,}30\) ; Profession libérale \(=1{,}20\). \\
+	\(\Tref\) (mensuels, sauf terrain au m\(^2\)) :
+	\begin{itemize}
+		\item Immeuble à étage (zone urbaine standard) : \(\Tref=70\,000\)~F
+		\item Commerce de quartier (RDC) : \(\Tref=90\,000\)~F
+		\item Logement (appartement) : \(\Tref=50\,000\)~F
+		\item Terrain nu (valeur vénale/m\(^2\)) : \(\Tref=8\,000\)~F/m\(^2\)
+	\end{itemize}
+	
+	\bigskip\hrule\bigskip
+	
+	\section*{Partie 1 — Évaluation cadastrale \& Champ d'application (corrigé)}
+	
+	\subsection*{Données de cas}
+	\begin{center}
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{1.8cm} X >{\raggedleft\arraybackslash}p{2.5cm} >{\raggedleft\arraybackslash}p{3.4cm} >{\raggedright\arraybackslash}p{3.2cm}@{}}
+			\toprule
+			\textbf{Bien} & \textbf{Description} & \textbf{Superficie} & \textbf{Loyer mensuel déclaré} & \textbf{Affectation/\(\Tref\)}\\
+			\midrule
+			A & Immeuble R+2, 6 appartements (Hedzranawoé) & 720 m\(^2\) & 200\,000 F (global) & Habitation ; \(\Tref=70\,000\) F\\
+			B & Terrain nu non loti (Kpalimé périphérie) & 600 m\(^2\) & -- & Terrain ; \(\Tref=8\,000\) F/m\(^2\)\\
+			C & Boutique + logement derrière (Agoè-Sogbossito) & 450 m\(^2\) & 90\,000 F (boutique) ; 40\,000 F (logement) & Commerce \(\Tref=90\,000\) F ; Habitation \(\Tref=50\,000\) F\\
+			\bottomrule
+		\end{tabularx}
+	\end{center}
+	
+	\subsection*{Étape 1 : Champ d'application}
+	\begin{itemize}
+		\item \textbf{Bien A} : Bâti \(\Rightarrow\) TFPB. La $\TaxHab{}$ concerne les \emph{occupants} des logements (locataires pour les appartements loués, propriétaire-occupant pour le logement qu'il occupe) au 1\textsuperscript{er} janvier.
+		\item \textbf{Bien B} : Non bâti \(\Rightarrow\) TFPNB.
+		\item \textbf{Bien C} : Mixte \(\Rightarrow\) deux unités d'évaluation : local commercial (TFPB) et logement (TFPB). La $\TaxHab{}$ s'applique à l'unité d'habitation (le logement derrière) et à son occupant.
+	\end{itemize}
+	
+	\subsection*{Étape 2 : Coefficients d'ajustement \(\Ca\)}
+	\begin{itemize}
+		\item \textbf{A} : Immeuble à étage, \(n=2\), Surf \(=720\). \\
+		\(\displaystyle \Ca=0{,}5\,(2+1)+0{,}25\cdot \floor{\tfrac{|720-600|}{600}}=1{,}5+0{,}25\cdot \floor{0{,}2}=1{,}5.\)
+		\item \textbf{B} : Non bâti \(\Rightarrow\) pas de \(\Ca\) (valeur vénale au m\(^2\)).
+		\item \textbf{C} : Bâti non étagé, Surf \(=450\). Hypothèse opératoire \(\Ca=1{,}0\) pour chaque sous-unité (faute de surfaces détaillées) :
+		\(\displaystyle \Ca=1+0{,}25\cdot \floor{\tfrac{|450-600|}{600}}=1.\)
+	\end{itemize}
+	
+	\subsection*{Étape 3 : Valeurs cadastrales \(\VL\) et valeur déclarée \(\VD\)}
+	\paragraph{Bien A (bâti habitation).}
+	\[
+	\VL_A = \Tref \times \Caff \times \Ca \times 12
+	= 70\,000 \times 1{,}00 \times 1{,}5 \times 12
+	= 1\,260\,000.
+	\]
+	\(\VD_A = 200\,000 \times 12 = 2\,400\,000.\) \quad
+	\(\Rightarrow \VR_A = \max(1\,260\,000,\,2\,400\,000)=\boxed{2\,400\,000}.\)
+	
+	\paragraph{Bien B (non bâti).}
+	\[
+	\VL_B = \text{Surf} \times \Tref = 600 \times 8\,000 = \boxed{4\,800\,000}.
+	\]
+	Pas de loyer déclaré \(\Rightarrow \VD_B=\VL_B=4\,800\,000\). \quad
+	\(\VR_B=\boxed{4\,800\,000}.\)
+	
+	\paragraph{Bien C (mixte = boutique + logement).}
+	\[
+	\begin{aligned}
+		\VL_{\text{commerce}} &= 90\,000 \times \Caffx{\text{com}} \times 1{,}0 \times 12
+		= 90\,000 \times 1{,}30 \times 12 = 1\,404\,000,\\
+		\VL_{\text{logement}} &= 50\,000 \times \Caffx{\text{hab}} \times 1{,}0 \times 12
+		= 50\,000 \times 1{,}00 \times 12 = 600\,000,\\
+		\Rightarrow \VL_C &= 1\,404\,000 + 600\,000 = \boxed{2\,004\,000}.
+	\end{aligned}
+	\]
+	\(\VD_C = (90\,000+40\,000)\times 12 = 130\,000 \times 12 = 1\,560\,000.\) \quad
+	\(\Rightarrow \VR_C=\max(2\,004\,000,\,1\,560\,000)=\boxed{2\,004\,000}.\)
+	
+	\bigskip\hrule\bigskip
+	
+	\section*{Partie 2 — Bases d'imposition, TFPB/TFPNB et Taxe d'habitation (corrigé)}
+	
+	\subsection*{Bases et impôts fonciers}
+	\paragraph{Bien A (bâti).}
+	\[
+	\Base_A = 0{,}5 \times \VR_A = 1\,200\,000,\qquad
+	\TFPB_A = 1\,200\,000 \times 7{,}5\% = \boxed{90\,000}.
+	\]
+	
+	\paragraph{Bien B (non bâti).}
+	\[
+	\Base_B = \VR_B = 4\,800\,000,\qquad
+	\TFPNB_B = 4\,800\,000 \times 0{,}5\% = \boxed{24\,000}.
+	\]
+	
+	\paragraph{Bien C (bâti mixte).}
+	\[
+	\Base_C = 0{,}5 \times \VR_C = 1\,002\,000,\qquad
+	\TFPB_C = 1\,002\,000 \times 7{,}5\% = \boxed{75\,150}.
+	\]
+	
+	\subsection*{Taxe d'habitation ($\TaxHab$) — raisonnement corrigé}
+	\begin{itemize}
+		\item \textbf{Redevable} : l'\emph{occupant} au 1\textsuperscript{er} janvier (locataire ou occupant à titre gratuit). Sur le Bien A, 5 locataires redevables pour 5 logements; le propriétaire-occupant pour son logement. Sur le Bien C, la $\TaxHab{}$ vise le logement derrière et son occupant (locataire).
+		\item \textbf{Base} : fondée sur un barème dépendant du nombre de pièces du logement.
+		\item \textbf{Montant} : le sujet ne fournit pas de barème TH local, ni la contenance en pièces des appartements \(\Rightarrow\) pas de chiffrage universel.
+	\end{itemize}
+	
+	\bigskip\hrule\bigskip
+	
+	\section*{Partie 3 — Mutations et changements (corrigé)}
+	
+	\subsection*{Changement d'affectation au 1\textsuperscript{er} juillet (deux appartements \(\rightarrow\) bureaux)}
+	\paragraph{Obligations déclaratives.}
+	Changements de consistance/affectation \emph{à déclarer dans les 4 mois} (art.~87 CGI). Les situations sont appréciées \emph{au 1\textsuperscript{er} janvier} de l'année d'imposition.
+	
+	\paragraph{Effet sur la valeur cadastrale (modèle pondéré).}
+	On part du Bien A (6 unités habitation). Deux unités deviennent \emph{bureaux (activité libérale)}. Faute de \(\Tref\) « bureaux » propre dans l’énoncé, on conserve \(\Tref=70\,000\) (immeuble à étage) et on ajuste \(\Caff\).
+	\[
+	\begin{aligned}
+		\text{Avant}:\quad &\VL_A^{\text{th}} = 12 \times \Tref \times \Ca \times \big(\tfrac{6}{6}\big)\times \Caffx{\text{hab}},\\[2pt]
+		\text{Après}:\quad &\VL_A^{\text{th,new}} = 12 \times \Tref \times \Ca \times \Big[\big(\tfrac{4}{6}\big)\Caffx{\text{hab}} + \big(\tfrac{2}{6}\big)\Caffx{\text{prof}}\Big],
+	\end{aligned}
+	\]
+	avec \(\Tref=70\,000\), \(\Ca=1{,}5\), \(\Caffx{\text{hab}}=1{,}00\), \(\Caffx{\text{prof}}=1{,}20\).
+	\[
+	\begin{aligned}
+		\text{Facteur Caff pondéré} &= \tfrac{4}{6}\cdot 1{,}00 + \tfrac{2}{6}\cdot 1{,}20
+		= \tfrac{4+2{,}4}{6}=\tfrac{16}{15}\approx 1{,}066\overline{6},\\[2pt]
+		\Rightarrow \VL_A^{\text{th,new}} 
+		&= 12 \times 70\,000 \times 1{,}5 \times \tfrac{16}{15} 
+		= 12 \times 112\,000
+		= \boxed{1\,344\,000}.
+	\end{aligned}
+	\]
+	\emph{Lecture :} conversion de 2/6 en activité libérale \(\Rightarrow\) légère hausse de \(\VL\) théorique (de 1\,260\,000 \(\rightarrow\) 1\,344\,000).
+	
+	\paragraph{Date d'effet fiscale.}
+	Changement au 1\textsuperscript{er} juillet \(\Rightarrow\) n'affecte pas l'imposition de l'année en cours (appréciation au 1\textsuperscript{er} janvier). Prise en compte à partir du 1\textsuperscript{er} janvier suivant (si déclaration dans les délais).
+	
+	\subsection*{Division/viabilisation du terrain B en lots}
+	\begin{itemize}
+		\item Tant que le terrain reste la propriété du même redevable et qu'aucune construction n'est achevée, la $\TFPNB{}$ demeure due \emph{par le propriétaire} (situation au 1\textsuperscript{er} janvier).
+		\item En cas de cession des lots, chaque acquéreur devient redevable à compter du 1\textsuperscript{er} janvier suivant l’acquisition.
+		\item À l’achèvement des constructions: bascule vers \(\TFPB\) pour les parties bâties (\(\Base=0{,}5\VR\), taux \(7{,}5\%\)).
+	\end{itemize}
+	
+	\bigskip\hrule\bigskip
+	
+	\section*{Synthèse — points clés}
+	\begin{itemize}
+		\item \(\VR=\max(\VL,\VD)\) (ne jamais oublier la comparaison VL/VD).
+		\item Bâti : \(\Base=0{,}5\VR\), taux \(7{,}5\%\). Non bâti : \(\Base=\VR\), taux \(0{,}5\%\).
+		\item $\TaxHab{}$ : due par l’\emph{occupant} au 1\textsuperscript{er} janvier, tarif liée au nombre de pièces du logement.
+		\item Mutations : déclarer sous 4 mois ; effet fiscal au 1\textsuperscript{er} janvier suivant.
+	\end{itemize}
+	
+\end{document}

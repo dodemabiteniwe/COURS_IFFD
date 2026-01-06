@@ -1,0 +1,53 @@
+	
+%page de garde%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+	\thispagestyle{empty}
+	\AddToShipoutPicture{
+		\AtUpperLeftCorner{-0.5cm}{0.2cm}{\includegraphics[scale=0.8]{logoOTR3}}
+		\AtUpperRightCorner{0.2cm}{0.2cm}{\begin{tikzpicture}[scale=3]
+				\shade[top color=white,bottom color=black,middle color=blue!70]
+				(0,0) rectangle (2.5,1.3);
+				\draw (1,1) node {\sffamily   \LARGE \color{white}\textbf{Année 2024/2025}};
+				\draw (1,0.7) node {\sffamily   \LARGE \color{white}\textbf{Filière Géomètre}};
+				\draw (1.5,0.4) node {\sffamily   \LARGE \color{white}\textbf{Topographe}};
+		\end{tikzpicture}}
+	}
+	% cadre  
+	\begin{tikzpicture}[remember picture, overlay]
+		\begin{scope}[shift={(current page.south west)}]
+			\usepgflibrary {shadings}
+			\shade[left color =gray!90, right color = blue!70] (-2,0) rectangle (4,26);
+		\end{scope}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}[remember picture, overlay]
+		\begin{scope}[shift={(current page.south west)}]
+			\draw (2.5,18) node [rotate=90,above] {\sffamily   \LARGE \color{white}\textbf{Institut de Formation Fiscale et Douanière}};
+		\end{scope}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}[remember picture, overlay]
+		\begin{scope}[shift={(current page.north west)}]
+			%	\draw ((12,-10) node {\sffamily \Large \color{bleuLille1}\textbf{Bébert}};
+			\draw ((12,-11) node {\sffamily \Huge \color{bleuLille1}\textbf{Enseignements de spécialité}};
+			\draw (12,-13) node {\sffamily \LARGE\color{bleuLille1}\textbf{Module: Fiscalité Foncière }};
+			\draw (12,-17) node {\sffamily \Large\color{bleuLille1}\textbf{support stagiaire}};
+		\end{scope}
+	\end{tikzpicture}
+	%  Tuteur
+	\begin{tikzpicture}[remember picture, overlay]
+		\begin{scope}[shift={(current page.south west)}]
+				\draw (16,3) node {\sffamily \Large \color{bleuLille1}\textbf{Dr. Dodema BITENIWE}};
+			\draw (18,2) node {\sffamily \large \color{bleuLille1}\textbf{Novembre 2024}};
+		\end{scope}
+	\end{tikzpicture}
+	%  logo
+	\begin{tikzpicture}[remember picture, overlay]
+		\begin{scope}[shift={(current page.south west)}]
+			\draw (2,3.5) node {\color{white}\bfseries\Huge IFFD};
+			\draw (2,1.2) node {\includegraphics[scale=.2]{logoOTR3}};
+		\end{scope}
+	\end{tikzpicture}
+\end{titlepage}
+\ClearShipoutPicture
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

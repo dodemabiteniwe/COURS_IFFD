@@ -1,0 +1,148 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{\numberline {1}Fondements, cadre légal et règles communes}{12}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Définition, nature et caractéristiques juridiques}{12}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Définition générale et fondement légal}{12}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Fondement doctrinal : impôt de quotité et instrument d’équilibre territorial}{13}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}La double nature de la taxe foncière : fiscale et économique}{13}{subsection.1.1.3}%
+\contentsline {paragraph}{1. Une nature fiscale : impôt local et permanent.}{13}{paragraph*.4}%
+\contentsline {paragraph}{2. Une nature économique : outil d’aménagement et de justice sociale.}{13}{paragraph*.5}%
+\contentsline {subsection}{\numberline {1.1.4}Caractéristiques juridiques principales}{14}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Effets juridiques et administratifs de la taxe foncière}{14}{subsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.1.6}Synthèse pédagogique}{15}{subsection.1.1.6}%
+\contentsline {section}{\numberline {1.2}Le cadre légal et institutionnel}{15}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Les sources normatives de la fiscalité foncière}{15}{subsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.1}Le Code Général des Impôts (CGI, 2025)}{16}{subsubsection.1.2.1.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.2}Le Livre des Procédures Fiscales (LPF)}{16}{subsubsection.1.2.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1.3}Les lois de finances}{16}{subsubsection.1.2.1.3}%
+\contentsline {subsubsection}{\numberline {1.2.1.4}Les textes sectoriels complémentaires}{16}{subsubsection.1.2.1.4}%
+\contentsline {subsubsection}{\numberline {1.2.1.5}Les actes administratifs de l’OTR}{17}{subsubsection.1.2.1.5}%
+\contentsline {subsection}{\numberline {1.2.2}Le cadre institutionnel de la fiscalité foncière}{17}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.1}L’Office Togolais des Recettes (OTR)}{17}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2.2}Les collectivités territoriales (communes)}{18}{subsubsection.1.2.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.3}Les services d’urbanisme et de construction}{18}{subsubsection.1.2.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.2.4}Les notaires et la chaîne foncière}{18}{subsubsection.1.2.2.4}%
+\contentsline {subsection}{\numberline {1.2.3}Logique d’ensemble du cadre légal et institutionnel}{18}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Le champ d'application et le fait générateur}{19}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Champ d'application matériel}{19}{subsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.1.1}Les propriétés bâties (TFPB)}{19}{subsubsection.1.3.1.1}%
+\contentsline {subsubsection}{\numberline {1.3.1.2}Les propriétés non bâties (TFPNB)}{19}{subsubsection.1.3.1.2}%
+\contentsline {subsubsection}{\numberline {1.3.1.3}Influence du zonage et de l’urbanisme}{20}{subsubsection.1.3.1.3}%
+\contentsline {subsection}{\numberline {1.3.2}Champ d'application personnel}{20}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Le fait générateur et la période d'imposition}{20}{subsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.3.1}Conséquences pratiques}{20}{subsubsection.1.3.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.3.2}Définition de l’achèvement}{20}{subsubsection.1.3.3.2}%
+\contentsline {subsection}{\numberline {1.3.4}Cas pratiques}{21}{subsection.1.3.4}%
+\contentsline {paragraph}{Cas 1 : Bâti en achèvement.}{21}{paragraph*.6}%
+\contentsline {paragraph}{Cas 2 : Terrain agricole.}{21}{paragraph*.7}%
+\contentsline {paragraph}{Cas 3 : Mutation non déclarée.}{21}{paragraph*.8}%
+\contentsline {paragraph}{Cas 4 : Copropriété.}{21}{paragraph*.9}%
+\contentsline {section}{\numberline {1.4}Les exonérations et exclusions}{21}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Aperçu des exonérations permanentes}{21}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Aperçu des exonérations temporaires}{22}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Exonérations partielles et proportionnelles}{22}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Exclusions d’assiette}{22}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5}Enjeux et risques liés à la gestion des exonérations}{22}{subsection.1.4.5}%
+\contentsline {section}{\numberline {1.5}Le rôle de l’Inspecteur du Cadastre}{23}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Dimension technique : production et mise à jour de la donnée}{23}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Dimension juridique : application des règles fiscales}{23}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Dimension administrative : gestion et traçabilité}{23}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Dimension relationnelle : interface avec les usagers et les partenaires}{24}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}Dimension stratégique : modernisation du cadastre et innovations}{24}{subsection.1.5.5}%
+\contentsline {chapter}{\numberline {2}La Taxe Foncière sur les Propriétés Bâties (TFPB)}{25}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{25}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Champ d’application de la TFPB}{26}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Définition générale de la propriété bâtie}{26}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}La fixation au sol}{26}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}La durabilité ou permanence}{27}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Le résultat d’un travail humain}{27}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}L’aptitude à l’usage ou à l’avantage économique}{27}{subsubsection.2.2.1.4}%
+\contentsline {subsection}{\numberline {2.2.2}La notion d’achèvement fiscal}{28}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Les constructions assimilées aux propriétés bâties}{28}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Le local comme unité d’évaluation fiscale}{29}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Les bâtiments à usage mixte}{29}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}Personnes imposables et obligations déclaratives}{30}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Redevable au 1\textsuperscript {er} janvier : principe majeur}{30}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Démembrement de propriété : l’usufruitier comme redevable}{30}{subsection.2.3.2}%
+\contentsline {paragraph}{pourquoi l’usufruitier est redevable ?}{31}{paragraph*.10}%
+\contentsline {paragraph}{Spécificités administratives et identification du redevable}{31}{paragraph*.11}%
+\contentsline {subsection}{\numberline {2.3.3}Baux de longue durée et concessions domaniales}{31}{subsection.2.3.3}%
+\contentsline {paragraph}{Baux emphytéotiques (18 à 99 ans).}{31}{paragraph*.12}%
+\contentsline {paragraph}{Baux à construction.}{32}{paragraph*.13}%
+\contentsline {paragraph}{Concessions domaniales.}{32}{paragraph*.14}%
+\contentsline {subsection}{\numberline {2.3.4}Copropriété, indivision et personnes morales}{32}{subsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.4.1}La copropriété : imposition du syndicat des copropriétaires}{32}{subsubsection.2.3.4.1}%
+\contentsline {subsubsection}{\numberline {2.3.4.2}L’indivision : solidarité fiscale et choix administratif}{32}{subsubsection.2.3.4.2}%
+\contentsline {subsubsection}{\numberline {2.3.4.3}Les personnes morales : une unité de redevabilité autonome}{33}{subsubsection.2.3.4.3}%
+\contentsline {subsection}{\numberline {2.3.5}Obligations déclaratives du propriétaire}{34}{subsection.2.3.5}%
+\contentsline {subsubsection}{\numberline {2.3.5.1}Déclaration annuelle obligatoire (Art. 86 LPF)}{34}{subsubsection.2.3.5.1}%
+\contentsline {paragraph}{Utilité fiscale et administrative.}{34}{paragraph*.15}%
+\contentsline {paragraph}{Intérêt pour le cadastre.}{34}{paragraph*.16}%
+\contentsline {paragraph}{Enjeux dans le contexte togolais.}{34}{paragraph*.17}%
+\contentsline {subsubsection}{\numberline {2.3.5.2}Déclaration des constructions nouvelles et changements d’affectation (Art. 87 LPF)}{34}{subsubsection.2.3.5.2}%
+\contentsline {paragraph}{A. Construction nouvelle.}{35}{paragraph*.18}%
+\contentsline {paragraph}{B. Reconstruction.}{35}{paragraph*.19}%
+\contentsline {paragraph}{C. Extension.}{35}{paragraph*.20}%
+\contentsline {paragraph}{D. Changement d’usage.}{35}{paragraph*.21}%
+\contentsline {paragraph}{E. Changement de consistance.}{35}{paragraph*.22}%
+\contentsline {subsubsection}{\numberline {2.3.5.3}Portée du système auto-déclaratif}{36}{subsubsection.2.3.5.3}%
+\contentsline {section}{\numberline {2.4}Base imposable et liquidation de la TFPB}{36}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}La Valeur Locative Cadastrale (VLC)}{37}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.1}Définition juridique (Art. 270 et 271 CGI)}{37}{subsubsection.2.4.1.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.2} Identification et Délimitation}{37}{subsubsection.2.4.1.2}%
+\contentsline {paragraph}{Procédure d’identification}{37}{paragraph*.23}%
+\contentsline {paragraph}{Procédure de délimitation et mesure de la consistance}{37}{paragraph*.24}%
+\contentsline {subsubsection}{\numberline {2.4.1.3}Caractéristiques techniques de la VLC}{37}{subsubsection.2.4.1.3}%
+\contentsline {subsection}{\numberline {2.4.2}Détermination de la Base Nette Imposable (BNI)}{38}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.1}Abattement légal}{38}{subsubsection.2.4.2.1}%
+\contentsline {subsubsection}{\numberline {2.4.2.2}Taux Fixé par le CGI (50\%)}{38}{subsubsection.2.4.2.2}%
+\contentsline {subsection}{\numberline {2.4.3}Taux d’imposition (Art. 275 CGI)}{38}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Liquidation de la TFPB}{38}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Atelier pratique : Calcul complet de la TFPB}{38}{subsection.2.4.5}%
+\contentsline {paragraph}{Données.}{38}{paragraph*.25}%
+\contentsline {paragraph}{Étape 1 : Calcul de la BNI.}{39}{paragraph*.26}%
+\contentsline {paragraph}{Étape 2 : Liquidation de la TFPB.}{39}{paragraph*.27}%
+\contentsline {subsection}{\numberline {2.4.6}Paiement et solidarité (Art. 85 LPF)}{39}{subsection.2.4.6}%
+\contentsline {section}{\numberline {2.5}Exonérations spécifiques à la TFPB}{39}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Exonérations permanentes (Art. 261 CGI)}{39}{subsection.2.5.1}%
+\contentsline {paragraph}{Réflexion doctrinale:}{40}{paragraph*.28}%
+\contentsline {paragraph}{Synthèse doctrinale.}{41}{paragraph*.29}%
+\contentsline {paragraph}{Synthèse doctrinale.}{42}{paragraph*.30}%
+\contentsline {paragraph}{Synthèse doctrinale.}{43}{paragraph*.31}%
+\contentsline {paragraph}{Synthèse doctrinale.}{44}{paragraph*.32}%
+\contentsline {paragraph}{Synthèse doctrinale.}{45}{paragraph*.33}%
+\contentsline {paragraph}{Synthèse doctrinale.}{46}{paragraph*.34}%
+\contentsline {paragraph}{Synthèse doctrinale.}{47}{paragraph*.35}%
+\contentsline {subsection}{\numberline {2.5.2}Exonérations temporaires (Articles 262 à 267 du CGI)}{48}{subsection.2.5.2}%
+\contentsline {chapter}{\numberline {3}Taxe Foncière sur les Propriétés Non Bâties (TFPNB)}{53}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Fondements juridiques et champ d’application de la TFPNB}{54}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Fondements juridiques de la TFPNB}{54}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Définition légale des propriétés non bâties selon l’article 259 du CGI}{54}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Distinction entre propriété bâtie et non bâtie : un enjeu central d’assiette}{55}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Notion d’agglomération et rôle du droit de l’urbanisme}{55}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Rôle de l’Inspecteur du Cadastre dans la détermination du champ d’application}{56}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Classification fiscale des terrains}{56}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Les terrains agricoles}{56}{subsection.3.2.1}%
+\contentsline {paragraph}{Définition fiscale et juridique.\\}{56}{paragraph*.36}%
+\contentsline {paragraph}{Enjeux fiscaux.\\}{57}{paragraph*.37}%
+\contentsline {subsection}{\numberline {3.2.2}Les terrains constructibles}{57}{subsection.3.2.2}%
+\contentsline {paragraph}{Définition.}{57}{paragraph*.38}%
+\contentsline {paragraph}{Usage réel versus usage potentiel.}{57}{paragraph*.39}%
+\contentsline {paragraph}{Importance du zonage urbanistique.}{57}{paragraph*.40}%
+\contentsline {subsection}{\numberline {3.2.3}Les terrains à usage spécial}{57}{subsection.3.2.3}%
+\contentsline {paragraph}{Exemples.}{57}{paragraph*.41}%
+\contentsline {paragraph}{Particularité fiscale.}{57}{paragraph*.42}%
+\contentsline {subsection}{\numberline {3.2.4}Les dépendances non intégrantes}{58}{subsection.3.2.4}%
+\contentsline {paragraph}{Typologie.}{58}{paragraph*.43}%
+\contentsline {paragraph}{Critère de dépendance fonctionnelle.}{58}{paragraph*.44}%
+\contentsline {subsection}{\numberline {3.2.5}Principes directeurs de la classification}{58}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Détermination de la base imposable et liquidation de la TFPNB}{58}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}L’assiette légale : la valeur vénale du terrain (Article 272 CGI)}{58}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Détermination de la valeur vénale : actes translatifs et estimation directe (Article 273 CGI)}{59}{subsection.3.3.2}%
+\contentsline {paragraph}{1. La méthode comparative.}{59}{paragraph*.45}%
+\contentsline {paragraph}{2. L'estimation directe.}{59}{paragraph*.46}%
+\contentsline {subsection}{\numberline {3.3.3}Compétence du cadastre dans la fixation de la valeur vénale (Article 274 CGI)}{59}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Liquidation de la taxe : application du taux unique (Article 276 CGI)}{60}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Enjeux administratifs et fiscaux}{60}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Exonérations applicables à la TFPNB}{60}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Exonérations prévues à l’article 268 du CGI}{61}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Exonération des immeubles ruraux (Article 269 du CGI)}{63}{subsection.3.4.2}%

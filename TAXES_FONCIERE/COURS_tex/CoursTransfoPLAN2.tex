@@ -1,0 +1,268 @@
+\documentclass[a4paper,12pt,DIV50]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[Bjornstrup]{fncychap}
+\usepackage[explicit]{titlesec}
+\usepackage[all]{xy}
+\usepackage{latexsym}
+\usepackage{textcomp}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fullpage}
+\usepackage{eso-pic}
+\usepackage[left=3cm, right=2cm, top=3cm, bottom=3cm]{geometry}
+%\usepackage{color}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings}
+\usepackage{xcolor}
+\usepackage[french]{babel}
+\usepackage{colortbl}
+\usepackage{fancybox}
+\usepackage[compatV3]{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{\nouppercase\rightmark}
+\renewcommand{\headrulewidth}{1.5 pt}
+\renewcommand{\footrulewidth}{0 pt}
+\setcounter{secnumdepth}{3}
+\definecolor{darkblue}{rgb}{0.12,0.47,0.87} 
+\usepackage{pifont}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage[toc,title,titletoc]{appendix}
+\usepackage{float}
+\usepackage{rotfloat}% for sidewaysfigure
+\usepackage{subcaption}  % an alternative package for sub figures
+\usepackage{caption}
+%\usepackage{subfigure}
+%\usepackage{subfig}
+\hypersetup{
+	plainpages=false,
+	colorlinks=true,
+	linkcolor=blue,
+	urlcolor=red,
+	anchorcolor=grey,
+	citecolor=red,
+	menucolor=black,
+}
+\usepackage{bbm}
+%\usepackage{babel}
+\usepackage{amsmath}
+\usepackage{mathtools}
+%\usepackage{ntheorem}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+%\usepackage{mathenv}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{mathrsfs}
+\usepackage{enumerate}
+\usepackage{lettrine}
+\usepackage{yfonts}
+\usepackage{enumitem}
+\usepackage{pifont}
+\usepackage{cleveref}
+\setcounter{secnumdepth}{3}%pour la numérotation dans le corps du document
+\setcounter{tocdepth}{3} %pour l'apparition dans la table des matières
+\renewcommand{\restoreapp}{} 
+\newcommand{\crefrangeconjunction}{--}
+\newcommand{\subfloat}[2][need a sub-caption]{\subcaptionbox{#1}{#2}}
+\newcommand{\enluminure}[2]{\lettrine[lines=3]{\small \initfamily #1}{#2}}
+%\renewcommand{\setthesection}{\Alph{section}}
+%\usepackage{oldgerm}
+\ChTitleVar{\Huge\bfseries\color{darkblue}\flushright}
+%\ChRuleWidth{4pt} 
+%Added packages for chap 1
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage{tabularx}
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage{threeparttablex}
+%Added packages for chap 2
+\usepackage{multirow}
+%\usepackage{pdfpages}
+\usepackage{wrapfig}
+\usepackage{shorttoc}
+%\usepackage{breqn}
+\usepackage{asymptote}
+\usepackage[left=3cm,right=2cm,top=3cm,bottom=3cm]{geometry}
+\newcommand{\Figtext}[1]{%
+	\begin{tablenotes}[para,flushleft]
+		\hspace{3pt}
+		\hangindent=1.55cm
+		#1
+	\end{tablenotes}
+}
+\newcommand{\Fignote}[1]{\Figtext{\emph{Note:~}~#1}}
+\newcommand{\Figsource}[1]{\Figtext{\emph{Source:~}~#1}}
+\newlength{\saveheight}             
+\setlength{\saveheight}{\textheight}
+\makeatletter
+\renewcommand{\DOTI}[1]{% pr chapter
+	\nointerlineskip\raggedright%
+	\fboxsep=\myhi%
+	\vskip-1ex%
+	\colorbox[gray]{.85}{\parbox[t]{1.1765\mylen}{\CTV\FmTi{#1}}}\par\nobreak%
+	\vskip 80\p@%
+}
+
+\renewcommand{\DOTIS}[1]{% pr chapter*
+	\fboxsep=0pt
+	\colorbox[gray]{.85}{\rule{0pt}{40pt}\parbox[b]{\textwidth}{\hfill}}\\%
+	\nointerlineskip\raggedright%
+	\fboxsep=\myhi%
+	\colorbox[gray]{.85}{\parbox[t]{1.1765\mylen}{\CTV\FmTi{#1}}}\par\nobreak%
+	\vskip 50\p@%
+}
+
+\def\@makechapterhead#1{% pr chapter
+	\vspace*{-20pt}% <------------- changement ici (était 50pt avant)
+	{\parindent \z@ \raggedright \normalfont
+		\ifnum \c@secnumdepth >\m@ne
+		\if@mainmatter%%%%% Fix for frontmatter, mainmatter, and backmatter 040920
+		\DOCH
+		\fi
+		\fi
+		\interlinepenalty\@M
+		\if@mainmatter%%%%% Fix for frontmatter, mainmatter, and backmatter 060424
+		\DOTI{#1}%
+		\else%
+		\DOTIS{#1}%
+		\fi
+}}
+
+\def\@makeschapterhead#1{% pr chapter*
+	\vspace*{-20\p@}%
+	{\parindent \z@ \raggedright
+		\normalfont
+		\interlinepenalty\@M
+		\DOTIS{#1}
+		\vskip 40\p@
+}}
+\makeatother
+%\hyphenation{macro-économiques mo-dèles con-vien-nent visua-li-sa-tion pério-di-cités pério-do-grammes exo-gènes mo-dèle pério-do-gramme}
+\newtheorem{proprietes}{Propri\'{e}t\'{e}}[chapter]
+\newtheorem{theoreme}{Th\'{e}or\`{e}me}[chapter]
+\newtheorem{definition}{D\'{e}finition}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{corolaire}{Corollaire}[chapter]
+\newtheorem{lemme}{Lemme}[chapter]
+\newtheorem{remarque}{Remarque}[chapter]
+\theoremstyle{remark}
+\newtheorem*{preuv}{\textbf{Preuve}}
+\newcommand{\prof}{\textsc{\textbf{Preuve}}.\hspace*{0.2cm}}
+\newcommand{\fin}{\hspace*{0.02mm}\Square}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\newcommand{\espaces}{(\Omega,\mathcal{A} ,\mathbb{P})}
+\newcommand{\for}{\forall B \in \mathcal{B}}
+\newcommand{\esp}{\hspace*{0.5cm}}
+\newcommand{\esps}{\hspace*{0.2cm}}
+%\newcommand{\l}{\mathcal{l}}
+
+\newcommand{\EE}{\mathbb{E} }
+\newcommand{\B}{\mathbb{B} }
+\newcommand{\C}{\mathcal{C} }
+\newcommand{\F}{\mathcal{F} }
+\newcommand{\Er}{\mathscr{E}}
+
+\newcommand{\RR}{\mathbb{R} }
+\newcommand{\CC}{\mathbb{C} }
+\newcommand{\PP}{\mathbb{P} }
+\newcommand{\FF}{\mathbb{F} }
+\newcommand{\NN}{\mathbb{N} }
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\Ar}{$\mathfrak{A}$}
+\newcommand{\indica}{\mathbbm{1}}
+
+\newcommand{\nsup}{n\geqslant0}
+\newcommand{\Xn}{(X_{n})_{n\geqslant0} }
+\newcommand{\inte}{\int_{B}^{} }
+\newcommand{\Dp}{\mathbb{P}}
+\newcommand{\E}{E(X/\mathcal{B}) }
+\newcommand{\En}{E(X_{n}/\mathcal{B})}
+
+\newcommand{\ie}{c'est-\`{a}-dire }
+\newcommand{\ssi}{si et seulement si,}
+
+\definecolor{bleuLille1}{RGB}{022,119,184}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\blap}[1]{\vbox to 0pt{#1\vss}}
+\newcommand\AtUpperLeftCorner[3]{%
+	\put(\LenToUnit{#1},\LenToUnit{\dimexpr\paperheight-#2}){\blap{#3}}%
+}
+\newcommand\AtUpperRightCorner[3]{%
+	\put(\LenToUnit{\dimexpr\paperwidth-#1},\LenToUnit{\dimexpr\paperheight-#2}){\blap{\llap{#3}}}%
+}
+\newcommand{\colouritem}[1]{%
+	{\color{#1}\item\leavevmode}\ignorespaces%
+}
+\def\frenchcontentsname{Sommaire}
+%\textwidth17cm \textheight22.86cm \hoffset-1.5cm \voffset-1.5cm
+
+\begin{document}
+	%page de garde%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{titlepage}
+	\thispagestyle{empty}
+	\AddToShipoutPicture*{
+		\AtUpperLeftCorner{-0.5cm}{0.2cm}{\includegraphics[scale=0.8]{logoOTR3}}
+		\AtUpperRightCorner{0.2cm}{0.2cm}{\begin{tikzpicture}[scale=3]
+				 \shade[top color=white,bottom color=black,middle color=blue!70]
+(0,0) rectangle (2.5,1.3);
+\draw (1,1) node {\sffamily   \LARGE \color{white}\textbf{Année 2023/2024}};
+\draw (1,0.7) node {\sffamily   \LARGE \color{white}\textbf{Filière Technicien}};
+\draw (1.5,0.4) node {\sffamily   \LARGE \color{white}\textbf{géomètre}};
+		\end{tikzpicture}}
+	}
+	% cadre  
+	\begin{tikzpicture}[remember picture, overlay]
+		\begin{scope}[shift={(current page.south west)}]
+			\usepgflibrary {shadings}
+		\shade[left color =gray!90, right color = blue!70] (-2,0) rectangle (4,26);
+		\end{scope}
+	\end{tikzpicture}
+
+	\begin{tikzpicture}[remember picture, overlay]
+	\begin{scope}[shift={(current page.south west)}]
+		\draw (2.5,18) node [rotate=90,above] {\sffamily   \LARGE \color{white}\textbf{Institut de Formation Fiscale et Douanière}};
+	\end{scope}
+\end{tikzpicture}
+
+	\begin{tikzpicture}[remember picture, overlay]
+		\begin{scope}[shift={(current page.north west)}]
+		%	\draw ((12,-10) node {\sffamily \Large \color{bleuLille1}\textbf{Bébert}};
+			\draw ((12,-11) node {\sffamily \Huge \color{bleuLille1}\textbf{Enseignements de spécialité}};
+			\draw (12,-13) node {\sffamily \LARGE\color{bleuLille1}\textbf{Module : Transformations }};
+			\draw (12,-14) node {\sffamily \LARGE\color{bleuLille1}\textbf{de coordonnées planes}};
+				\draw (12,-17) node {\sffamily \Large\color{bleuLille1}\textbf{support stagiaire}};
+		\end{scope}
+	\end{tikzpicture}
+	%  Tuteur
+	\begin{tikzpicture}[remember picture, overlay]
+		\begin{scope}[shift={(current page.south west)}]
+		%	\draw (16,3) node {\sffamily \Large \color{bleuLille1}\textbf{Tuteur universitaire}};
+			\draw (18,2) node {\sffamily \large \color{bleuLille1}\textbf{Avril 2024}};
+		\end{scope}
+	\end{tikzpicture}
+	%  logo
+	\begin{tikzpicture}[remember picture, overlay]
+		\begin{scope}[shift={(current page.south west)}]
+			\draw (2,3.5) node {\color{white}\bfseries\Huge IFFD};
+			\draw (2,1.2) node {\includegraphics[scale=.2]{logoOTR3}};
+		\end{scope}
+	\end{tikzpicture}
+	\end{titlepage}
+\ClearShipoutPicture
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\include{pagegard}
+%\thispagestyle{empty}
+\tableofcontents{}
+\include{Chap1}
+\include{Chap2}
+\include{Chap3}
+\end{document}

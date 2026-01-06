@@ -1,0 +1,149 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{geometry}
+\geometry{margin=2.3cm}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue}
+\setlist[itemize]{left=0pt,label=--,itemsep=3pt,topsep=3pt}
+\setlist[enumerate]{itemsep=4pt,topsep=4pt}
+
+% Petites aides typographiques
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\points}[1]{\hfill\textit{[#1 pts]}}
+
+% Symbole et macro pour la partie entière (floor)
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+
+% Raccourcis math
+\newcommand{\Tref}{T_{\mathrm{ref}}}
+\newcommand{\Caff}{C_{\mathrm{aff}}}
+\newcommand{\Ca}{C_{a}}
+\newcommand{\VL}{\mathrm{VL}}
+\newcommand{\VR}{\mathrm{V_{ret}}}
+\newcommand{\VD}{\mathrm{V_{d\acute ecl}}}
+\newcommand{\Base}{\mathrm{Base}}
+\newcommand{\TFPB}{\mathrm{TFPB}}
+\newcommand{\TFPNB}{\mathrm{TFPNB}}
+\newcommand{\THs}{\mathrm{TH}}
+
+% Titre
+\title{\Large\bfseries Cas Pratique Intégrateur\\
+	\large Évaluation cadastrale, champ TFPB/TFPNB, bases et impôts, TH et changements}
+\author{Module : Fiscalité foncière}
+\date{}
+
+\begin{document}
+	\maketitle
+	\noindent\textbf{Rappels utiles (méthode simplifiée).}
+	\begin{itemize}
+		\item \(\VL_{\text{bâti}} = \Tref \times \Caff \times \Ca \times 12\).
+		\item \(\VL_{\text{non bâti}} = \text{Superficie} \times \Tref\) (tarif/m\(^2\)).
+		\item \(\VD = \) (loyer mensuel total) \(\times 12\). En l'absence de loyer déclaré : \(\VD=\VL\).
+		\item \(\VR = \max(\VL,\VD)\).
+		\item Base d'imposition : \(\Base = 0{,}5\times \VR\) (bâti) ; \(\Base = 1{,}0\times \VR\) (non bâti).
+		\item Impôt estimé : \(\TFPB = \Base \times 7{,}5\%\) (bâti) ; \(\TFPNB = \Base \times 0{,}5\%\) (non bâti).
+	\end{itemize}
+	
+	\medskip
+	\noindent\textbf{Indications pour \(\Ca\) (extraits opérationnels) :}
+	\[
+	\begin{aligned}
+		\text{Bâtiment à étage (}n\ge 1\text{)}:\quad 
+		&\Ca = 0{,}5\,(n+1) + 0{,}25\cdot \floor{\tfrac{|\text{Surf}-600|}{600}}\\
+		\text{Villa/maison simple}:\quad 
+		&\Ca = 1 + 0{,}25\cdot \floor{\tfrac{|\text{Surf}-600|}{600}}\\
+		\text{Hangar/baraque}:\quad 
+		&\Ca = 1 + \floor{\tfrac{|\text{Surf}-150|}{150}}
+	\end{aligned}
+	\]
+	\vspace{0.5em}
+	\noindent\textbf{Repères :} Les valeurs de \(\Tref\) (mensuelles pour le bâti, unitaires/m\(^2\) pour le non bâti) et les \(\Caff\) sont \textit{fournies au sujet} et tiennent compte du secteur tarifaire et de l’affectation.
+	
+	\bigskip
+	
+	%==================== PARTIE 1 ====================%
+	\section*{Partie 1 --- Évaluation cadastrale \& Champ d’application }
+	
+	\subsection*{Exercice 1 : Identification du régime fiscal et calcul de \(\VL\)}
+	On considère trois biens appartenant à un même contribuable.
+	
+	\medskip
+	\noindent\textbf{Données communes} :\\
+	\(\Caff\) (référence) : Habitation \(=1{,}00\) ; Commerce \(=1{,}30\) ; Profession libérale \(=1{,}20\).\\
+	\(\Tref\) (mensuel, par type et zone) :
+	\begin{itemize}
+		\item Immeuble à étage (zone urbaine standard) : \(\Tref=70\,000\) F
+		\item Commerce de quartier (rez-de-chaussée) : \(\Tref=90\,000\) F
+		\item Logement (appartement) : \(\Tref=50\,000\) F
+		\item Terrain nu (valeur vénale moyenne par m\(^2\)) : \(\Tref=8\,000\) F/m\(^2\)
+	\end{itemize}
+	
+	\medskip
+	\noindent\textbf{Biens :}
+	\begin{center}
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{1.8cm} X >{\raggedleft\arraybackslash}p{2.5cm} >{\raggedleft\arraybackslash}p{3.4cm} >{\raggedright\arraybackslash}p{3.2cm}@{}}
+			\toprule
+			\textbf{Bien} & \textbf{Description} & \textbf{Superficie} & \textbf{Loyer déclaré (mensuel)} & \textbf{Affectation/ \(\Tref\)}\\
+			\midrule
+			A & Immeuble R+2, 6 appartements (Hedzranawoé) & 720 m\(^2\) & 200\,000 F (global) & Habitation ; \(\Tref=70\,000\) F \\
+			B & Terrain nu non loti (Kpalimé périphérie) & 600 m\(^2\) & -- & Terrain ; \(\Tref=8\,000\) F/m\(^2\) \\
+			C & Boutique + logement derrière (Agoè-Sogbossito) & 450 m\(^2\) & 90\,000 F (boutique) ; 40\,000 F (logement) & Commerce \(\Tref=90\,000\) F ; Habitation \(\Tref=50\,000\) F \\
+			\bottomrule
+		\end{tabularx}
+	\end{center}
+	
+	\medskip
+	\noindent\textbf{Travail demandé.}
+	\begin{enumerate}
+		\item Identifier, pour chaque bien, s’il relève de la \(\TFPB\), de la \(\TFPNB\) et/ou de la \(\THs\). 
+		\item Déterminer l’unité d’évaluation et calculer \(\Ca\) (utiliser la formule correspondant au type). 
+		\item Calculer \(\VL\) (ou valeur vénale pour le non bâti) avec les \(\Tref\) et \(\Caff\) fournis. 
+		\item Calculer \(\VD\) et retenir \(\VR=\max(\VL,\VD)\)
+	\end{enumerate}
+	
+	\bigskip
+	
+	%==================== PARTIE 2 ====================%
+	\section*{Partie 2 --- Bases d’imposition, impôts estimés et TH}
+	
+	\subsection*{Exercice 2 : Base imposable et \(\TFPB/\TFPNB\)}
+	À partir de \(\VR\) de la Partie 1, calculer pour chaque bien : \(\Base\), puis \(\TFPB\) ou \(\TFPNB\).
+	
+	\subsection*{Exercice 3 : Taxe d’habitation (TH)}
+	Sur le Bien A, au 1\textsuperscript{er} janvier, 1 appartement est occupé par le propriétaire et 5 sont loués.
+	\begin{enumerate}
+		\item Qui est redevable de la \(\THs\) et pour quelles unités ?
+		\item Sur quelle base la \(\THs\) est-elle liquidée (rappels réglementaires)~? 
+		\item Déterminer la \(\THs\) due pour les 5 locataires (faire les hypothèses raisonnables et \emph{explicites} si besoin).
+	\end{enumerate}
+	
+	\bigskip
+	
+	%==================== PARTIE 3 ====================%
+	\section*{Partie 3 --- Mutations et changements}
+	
+	\subsection*{Exercice 4 : Changement d’affectation et divisions}
+	Au 1\textsuperscript{er} juillet, le propriétaire :
+	\begin{itemize}
+		\item transforme \textbf{deux appartements} du Bien A en \textbf{bureaux (activité libérale)} ;
+		\item engage la viabilisation du Bien B en vue de \textbf{division et cession par lots}.
+	\end{itemize}
+	Questions :
+	\begin{enumerate}
+		\item Quelles obligations déclaratives (délais et fondement) s’appliquent au changement d’affectation et aux travaux (rappel de l’article 87) ? 
+		\item Le \(\Caff\) change-t-il pour les deux nouvelles unités en activité libérale~? Justifier et recalculer \(\VL\) de ces unités en indiquant \(\Tref\), \(\Caff\) et \(\Ca\) pertinents. 
+		\item Principe de date d’effet des changements : à partir de quand l’imposition \(\TFPB/\TFPNB/\THs\) est-elle modifiée~? Expliquer le rôle de la règle du 1\textsuperscript{er} janvier.
+		\item Pour le terrain B en cours de division : \(\TFPNB\) reste-t-elle due~? Par qui~? Jusqu’à quel événement~? 
+	\end{enumerate}
+	
+\end{document}

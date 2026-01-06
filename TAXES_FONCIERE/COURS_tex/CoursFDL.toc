@@ -1,0 +1,62 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{\numberline {1}Aspects Généraux de la Fiscalité Foncière}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Bref historique des Impôts Directs Locaux (IDL)}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Synthèse des caractéristiques générales des IDL }{9}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Types d'impôts directs locaux}{9}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Objectifs des impôts locaux}{9}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Les ressources fiscales des collectivités}{10}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}L'impact des ressources fiscales dans le budget des collectivités}{10}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Composition de la fiscalité directe locale}{10}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}La répartition entre les collectivités}{11}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Les intervenants de la fiscalité directe locale}{11}{subsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.4.1}Une relation tripartite}{11}{subsubsection.1.3.4.1}%
+\contentsline {subsubsection}{\numberline {1.3.4.2}Le rôle des collectivités locales}{12}{subsubsection.1.3.4.2}%
+\contentsline {subsubsection}{\numberline {1.3.4.3}Le rôle de l'État}{12}{subsubsection.1.3.4.3}%
+\contentsline {subsubsection}{\numberline {1.3.4.4}Le rôle des contribuables}{13}{subsubsection.1.3.4.4}%
+\contentsline {chapter}{\numberline {2}Les évaluations cadastrales}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Les évaluations cadastrales des propriétés non bâties}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}La classification}{16}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}L'évaluation}{16}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Le principe: l'évaluation à l'aide des actes de location}{16}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}L'exception : l'évaluation par voie d'appréciation directe}{18}{subsubsection.2.2.2.2}%
+\contentsline {section}{\numberline {2.3}Les évaluations foncières des propriétés bâties}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}L'unité d'évaluation}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}L'évaluation des locaux d'habitation}{19}{subsection.2.3.2}%
+\contentsline {paragraph}{Points à Considérer}{21}{paragraph*.6}%
+\contentsline {subsection}{\numberline {2.3.3}L'évaluation des locaux professionnels}{21}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}L'évaluation des établissements industriels}{24}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Présentation de la méthode simplifié en vigueur au Cadastre}{24}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Détermination des paramètres de référence : Tarif, Coefficient d’affectation et Coefficient d’ajustement}{25}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.1} Objectif général}{25}{subsubsection.2.4.1.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.2} Le tarif de référence}{25}{subsubsection.2.4.1.2}%
+\contentsline {subsubsection}{\numberline {2.4.1.3} Le coefficient d’affectation}{25}{subsubsection.2.4.1.3}%
+\contentsline {subsubsection}{\numberline {2.4.1.4}Le coefficient d’ajustement}{26}{subsubsection.2.4.1.4}%
+\contentsline {subsection}{\numberline {2.4.2}Calcul de la valeur cadastrale}{27}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Prise en compte de la valeur déclarée et détermination de la valeur retenue}{27}{subsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.3.1}Détermination de la valeur déclarée}{27}{subsubsection.2.4.3.1}%
+\contentsline {subsubsection}{\numberline {2.4.3.2}Sélection de la valeur retenue}{28}{subsubsection.2.4.3.2}%
+\contentsline {subsection}{\numberline {2.4.4}Calcul de la base d’imposition et de l’impôt estimé}{28}{subsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.4.1} Objectif}{28}{subsubsection.2.4.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.4.2} Calcul de la base d’imposition}{29}{subsubsection.2.4.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.4.3} Calcul de l’impôt estimé}{29}{subsubsection.2.4.4.3}%
+\contentsline {subsection}{\numberline {2.4.5}Conclusion}{29}{subsection.2.4.5}%
+\contentsline {chapter}{\numberline {3}Règles et principes des différentes taxes foncières}{33}{chapter.3}%
+\contentsline {section}{\numberline {3.1}La taxe foncière sur les propriétés bâties}{33}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Propriétés imposables}{33}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Les propriétés imposables sont des bâtiments fixés au sol qui doivent être achevés}{34}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Sont également bâtiments certains meubles ou certains terrains}{34}{subsubsection.3.1.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}Les exonérations de taxe foncière sur les propriétés bâties}{35}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Exonérations temporaires}{35}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Les exonérations permanentes (Art. 261 GCI)}{36}{subsubsection.3.1.2.2}%
+\contentsline {subsection}{\numberline {3.1.3}Calcul de la taxe foncière sur les propriétés bâties}{37}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}La détermination du débiteur de la taxe foncière}{37}{subsection.3.1.4}%
+\contentsline {paragraph}{La mutation de cote : }{38}{paragraph*.7}%
+\contentsline {section}{\numberline {3.2}La taxe foncière sur les propriétés non bâties}{38}{section.3.2}%
+\contentsline {paragraph}{Observation importante:}{38}{paragraph*.8}%
+\contentsline {subsection}{\numberline {3.2.1}Les exonérations de la taxe foncière sur les propriétés non bâties}{39}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Base d'imposition et taux}{39}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}La taxe d'habitation}{39}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Personnes imposables — Lieu d'imposition}{40}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Personnes exonérées}{40}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Base d’imposition}{41}{subsection.3.3.3}%
