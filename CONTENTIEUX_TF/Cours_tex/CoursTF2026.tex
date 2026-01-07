@@ -1,0 +1,203 @@
+\documentclass[a4paper,12pt,DIV50]{report}
+%==============================%
+% 1) Encodage, langue, polices %
+%==============================%
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[french]{babel}
+% (garde csquotes plus loin dans "Utilitaires", comme chez toi)
+
+%==============================%
+% 2) Géométrie / mise en page  %
+%==============================%
+\usepackage[left=3cm, right=2cm, top=3cm, bottom=3cm]{geometry}
+% (tu le charges deux fois plus bas : on laisse la 2e occurrence aussi, sans supprimer)
+\usepackage{fullpage} % conservé comme demandé (peut redéfinir la page après geometry)
+
+%==============================%
+% 3) Graphiques / couleurs     %
+%==============================%
+\usepackage{graphicx}
+\usepackage{color}   % gardé
+\usepackage{xcolor}  % gardé aussi (xcolor charge 'color' ; coexistence OK)
+\definecolor{darkblue}{rgb}{0.12,0.47,0.87}
+\definecolor{primarycolor}{RGB}{0, 51, 102} % Couleur principale
+\definecolor{secondarycolor}{RGB}{255, 204, 0} % Couleur secondaire pour accents
+\definecolor{backgroundcolor}{RGB}{240, 240, 240} % Couleur de fond
+
+
+%==============================%
+% 4) Maths / symboles          %
+%==============================%
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{mathrsfs}
+\usepackage{bbm}
+
+
+%==============================%
+% 5) Tableaux / flottants      %
+%==============================%
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage{tabularx}
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage{threeparttablex}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{float}
+\usepackage{rotfloat}   % for sidewaysfigure
+\usepackage{subcaption} % alternative sous-figures
+\usepackage{caption}
+% \usepackage{subfigure} % (resté commenté comme chez toi)
+% \usepackage{subfig}    % (resté commenté comme chez toi)
+
+%==============================%
+% 6) TikZ / dessins            %
+%==============================%
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,positioning, arrows.meta}
+
+
+%==============================%
+% 7) Styles de chapitres/titres%
+%==============================%
+\usepackage[Bjornstrup]{fncychap}
+\usepackage[explicit]{titlesec}
+\ChTitleVar{\Huge\bfseries\color{darkblue}\flushright}
+
+%==============================%
+% 8) En-têtes / pieds de page  %
+%==============================%
+\usepackage[compatV3]{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead{}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{\nouppercase\rightmark}
+\renewcommand{\headrulewidth}{1.5 pt}
+\renewcommand{\footrulewidth}{0 pt}
+\setlength{\headsep}{1cm}
+
+
+%==============================%
+% 9) Réglages de numérotation  %
+%==============================%
+\setcounter{secnumdepth}{3} % numérotation dans le corps
+\setcounter{tocdepth}{3}    % profondeur de la ToC
+
+%==============================%
+% 10) Utilitaires divers       %
+%==============================%
+\usepackage{eso-pic}
+\usepackage{url}
+\usepackage[all]{xy}
+\usepackage{enumerate}
+\usepackage{latexsym}
+\usepackage{textcomp}
+\usepackage{colortbl}
+\usepackage{fancybox}
+\usepackage{pifont}
+\usepackage{csquotes}
+\usepackage[toc,title,titletoc]{appendix}
+\usepackage{shorttoc}
+\usepackage{asymptote}
+\usepackage{enumitem}
+\usepackage{pifont}      % (2e fois : conservé)
+\usepackage{yfonts}
+\usepackage{lettrine}
+\usepackage{tcolorbox}
+\usepackage{amsthm}
+\usepackage{enumerate}
+\usepackage{tcolorbox}
+\usepackage{wrapfig}
+\usepackage{shorttoc}
+%\usepackage{breqn}
+\usepackage{asymptote}
+
+%==============================%
+% 11) Cleveref / Hyperref      %
+%==============================%
+% Place hyperref à la fin du préambule (avant cleveref ou après—tu avais cleveref après : on garde ton ordre)
+\usepackage{hyperref}
+\hypersetup{
+	plainpages=false,
+	colorlinks=true,
+	linkcolor=blue,
+	urlcolor=red,
+	anchorcolor=grey,
+	citecolor=red,
+	menucolor=black,
+}
+\usepackage{cleveref}
+
+%==============================%
+% 12) Profondeurs & macros     %
+%==============================%
+\renewcommand{\restoreapp}{} 
+\newcommand{\crefrangeconjunction}{--}
+\newcommand{\subfloat}[2][need a sub-caption]{\subcaptionbox{#1}{#2}}
+\newcommand{\enluminure}[2]{\lettrine[lines=3]{\small \initfamily #1}{#2}}
+
+
+%==============================%
+% 14) Théorèmes & macros perso %
+%==============================%
+
+\newtheorem{proprietes}{Propri\'{e}t\'{e}}[chapter]
+\newtheorem{theoreme}{Th\'{e}or\`{e}me}[chapter]
+\newtheorem{definition}{D\'{e}finition}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{corolaire}{Corollaire}[chapter]
+\newtheorem{exo}{Reflexion}[chapter]
+\newtheorem{exple}{Exemple}[chapter]
+\newtheorem{remarque}{Remarque}[chapter]
+\theoremstyle{remark}
+\newtheorem*{preuv}{\textbf{Preuve}}
+\newcommand{\prof}{\textsc{\textbf{Preuve}}.\hspace*{0.2cm}}
+\newcommand{\fin}{\hspace*{0.02mm}\Square}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\newcommand{\espaces}{(\Omega,\mathcal{A} ,\mathbb{P})}
+\newcommand{\for}{\forall B \in \mathcal{B}}
+\newcommand{\esp}{\hspace*{0.5cm}}
+\newcommand{\esps}{\hspace*{0.2cm}}
+%\newcommand{\l}{\mathcal{l}}
+\definecolor{bleuLille1}{RGB}{022,119,184}
+\definecolor{primarycolor}{RGB}{0, 51, 102} % Couleur principale
+\definecolor{secondarycolor}{RGB}{255, 204, 0} % Couleur secondaire pour accents
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\blap}[1]{\vbox to 0pt{#1\vss}}
+\newcommand\AtUpperLeftCorner[3]{%
+	\put(\LenToUnit{#1},\LenToUnit{\dimexpr\paperheight-#2}){\blap{#3}}%
+}
+\newcommand\AtUpperRightCorner[3]{%
+	\put(\LenToUnit{\dimexpr\paperwidth-#1},\LenToUnit{\dimexpr\paperheight-#2}){\blap{\llap{#3}}}%
+}
+\newcommand{\colouritem}[1]{%
+	{\color{#1}\item\leavevmode}\ignorespaces%
+}
+
+%==============================%
+% 15) Sommaire & divers        %
+%==============================%
+\def\frenchcontentsname{Sommaire}
+
+%\textwidth16cm \textheight22.86cm \hoffset-1.5cm \voffset-1.5cm
+\begin{document}
+\include{pagegardIFFD}
+%\thispagestyle{empty}
+\tableofcontents{}
+\include{biblio}
+\include{intro}
+\include{Chap1}
+\include{Chap2}
+\include{Chap3}
+\include{Ccl}
+\end{document}

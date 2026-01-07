@@ -1,0 +1,63 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\geometry{left=2cm, right=2cm, top=2cm, bottom=2cm}
+\pagestyle{empty}
+
+\begin{document}
+	
+	% Page de garde
+	\begin{titlepage}
+		
+		% Logo et nom de l'école en haut à gauche
+		\begin{minipage}{0.5\textwidth}
+			\includegraphics[width=0.3\textwidth]{logoOTRsup}\\[0.5cm] % Remplacer par le logo OTR si disponible
+			\textbf{OFFICE TOGOLAIS DES RECETTES}\\
+			Institut de Formation Fiscale et Douanière
+		\end{minipage}
+		\vspace{3cm}
+		
+		% Encadré centré pour le texte du cycle
+		\begin{center}
+			\begin{tcolorbox}[width=0.8\textwidth, colframe=black, colback=gray!10, boxrule=1pt]
+				\centering \Large \textbf{Cycle diplômant de formation fiscale et douanière de base des cadres supérieurs}
+			\end{tcolorbox}
+		\end{center}
+		\vspace{2cm}
+		
+		% Encadré centré pour l'intitulé de la formation
+		\begin{center}
+			\begin{tcolorbox}[width=0.9\textwidth, colframe=black, colback=gray!10, boxrule=1.5pt]
+				\centering \Huge \textbf{MANUEL DE FORMATION SUR : \\[0.3cm] LA REDACTION ADMINISTRATIVE}
+			\end{tcolorbox}
+		\end{center}
+		\vfill
+		
+		% Encadré pour le nom de l'auteur en bas de la page
+		\begin{center}
+			\begin{tcolorbox}[width=0.5\textwidth, colframe=black, colback=gray!10, boxrule=1pt]
+				\centering \Large Préparé par : Bagna KIBALO
+			\end{tcolorbox}
+		\end{center}
+		
+		% Année dans le coin inférieur droit
+		\begin{flushright}
+			\Large Année 2019-2020
+		\end{flushright}
+		
+	\end{titlepage}
+	
+	% Deuxième page avec l'encadré de réserve d'usage
+	\newpage
+	\begin{center}
+		\begin{tcolorbox}[width=0.8\textwidth, colframe=black, colback=gray!10, boxrule=1pt, sharp corners]
+			\centering
+			\large Le présent support de cours est réservé à l’usage exclusif du personnel de l’Office Togolais des Recettes (OTR) dans un but purement pédagogique. Il ne doit en aucun cas être utilisé à d’autres fins.\\
+			\vspace{0.3cm}
+			Toute reproduction intégrale ou partielle sans l’autorisation de l’OTR est interdite.
+		\end{tcolorbox}
+	\end{center}
+	
+\end{document}

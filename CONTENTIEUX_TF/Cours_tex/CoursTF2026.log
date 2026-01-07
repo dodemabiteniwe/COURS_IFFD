@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  7 JAN 2026 11:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  7 JAN 2026 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1648,7 +1648,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 28.
-<logoOTRsup.jpg, id=422, 136.3275pt x 69.9705pt>
+<logoOTRsup.jpg, id=26, 136.3275pt x 69.9705pt>
 File: logoOTRsup.jpg Graphic file (type jpg)
 <use logoOTRsup.jpg>
 Package pdftex.def Info: logoOTRsup.jpg  used on input line 58.
@@ -1675,121 +1675,75 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.194 \include{pagegardIFFD}
-                             [1] (CoursTF2026.toc [2
-
-
-
-] [3])
+                             [1] (CoursTF2026.toc)
 \tf@toc=\write9
 \openout9 = `CoursTF2026.toc'.
 
- [4]
+ [2
+
+
+
+]
 \openout2 = `biblio.aux'.
 
- (biblio.tex)
-[5
+ (biblio.tex) [3
 
 
 ]
 \openout2 = `intro.aux'.
 
- (intro.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+(intro.tex
+! Undefined control sequence.
+l.4 \epigraph
+             {%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--16
 
  []
 
 
-Overfull \hbox (14.49928pt too wide) in paragraph at lines 8--10
-[]\T1/lmr/m/n/12 La taxe fon-cière, qu'elle s'ap-plique aux pro-prié-tés bâ-tie
-s (TFPB) ou non bâ-ties (TFPNB),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 17--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+Underfull \hbox (badness 10000) in paragraph at lines 28--35
 
  []
 
-[6
+[4
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 36--43
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 128--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 136--143
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
-
- []
-
-[9] [10]) [11]
+) [7]
 \openout2 = `Chap1.aux'.
 
  (Chap1.tex
@@ -1806,87 +1760,12 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-[12
+[8
 
 
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-[13] [14]
-Underfull \hbox (badness 2698) in paragraph at lines 128--128
-[]|\T1/lmr/m/n/12 Produit des-tiné aux
- []
-
-
-Overfull \hbox (11.4234pt too wide) in paragraph at lines 118--133
- [] 
- []
-
-[15] [16] [17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
-
- []
-
-[19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 427--428
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 440--442
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 443--445
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 446--448
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 454--456
-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 457--459
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 464--466
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--480
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--488
-
- []
-
-[22] [23]) [24]
+] [9] [10]) [11]
 \openout2 = `Chap2.aux'.
 
  (Chap2.tex
@@ -1896,239 +1775,12 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-[25
+) [12
 
 
 
 
 ]
-Overfull \hbox (5.08424pt too wide) in paragraph at lines 22--23
-[]\T1/lmr/m/n/12 Ces quatre élé-ments consti-tuent le socle ju-ri-dique per-met
--tant de dis-tin-guer les construc-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
-
- []
-
-[26] [27]
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
-
- []
-
-[29]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 163.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 163.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 163.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 163.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 163.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
-
- []
-
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-
- []
-
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
-
- []
-
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
-
- []
-
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-[34] [35]
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
-
- []
-
-[36] [37]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-50.
-
-(C:\Users\dbiteniwe\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 496--497
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 507--508
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
-
- []
-
-[39] [40] [41] [42] [43] [44] [45] [46] [47]
-Underfull \hbox (badness 10000) in paragraph at lines 916--918
-
- []
-
-[48]
-Underfull \hbox (badness 10000) in paragraph at lines 929--931
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 932--935
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 950--951
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 952--954
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 955--957
-
- []
-
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 991--992
-
- []
-
-[50]
-Overfull \hbox (9.53706pt too wide) in paragraph at lines 1035--1036
-[]\T1/lmr/bx/n/14.4 Déclarations tar-dives et frac-tion ré-si-duelle d'exo-né-r
-a-tion (Art.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1040
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1047--1049
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1050--1053
-
- []
-
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 1054--1057
-
- []
-
-) [52]
 \openout2 = `Chap3.aux'.
 
  (Chap3.tex
@@ -2138,235 +1790,56 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--19
-
- []
-
-[53
+) [13
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
-
- []
-
-[54] [55]
-Underfull \hbox (badness 10000) in paragraph at lines 123--127
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--135
-
- []
-
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
- []
-
-[57]
-Underfull \hbox (badness 10000) in paragraph at lines 207--209
-
- []
-
-[58] [59]
-Underfull \hbox (badness 10000) in paragraph at lines 315--318
-
- []
-
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 335--337
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--341
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 350--352
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
-
- []
-
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 364--367
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 370--373
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 380--382
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--385
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 394--396
-
- []
-
-[62]
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 409--411
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 434--437
-
- []
-
-[63]
-Underfull \hbox (badness 10000) in paragraph at lines 451--453
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 461--464
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--479
-
- []
-
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 500--503
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 504--507
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 508--511
-
- []
-
-[65]
-Underfull \hbox (badness 10000) in paragraph at lines 512--514
-
- []
-
-) [66]
 \openout2 = `Ccl.aux'.
 
- (Ccl.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--20
-
- []
-
-[67
+ (Ccl.tex) [14
 
 
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+] (CoursTF2026.aux (pagegardIFFD.aux) (biblio.aux)
+(intro.aux) (Chap1.aux) (Chap2.aux) (Chap3.aux) (Ccl.aux))
 
- []
+Package rerunfilecheck Warning: File `CoursTF2026.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-) [68] (CoursTF2026.aux (pagegardIFFD.aux) (biblio.aux) (intro.aux) (Chap1.aux)
-(Chap2.aux) (Chap3.aux) (Ccl.aux))
-Package rerunfilecheck Info: File `CoursTF2026.out' has not changed.
-(rerunfilecheck)             Checksum: 9C0B7C356380976D6B89067C3C1E8D83;30887.
+Package rerunfilecheck Info: Checksums for `CoursTF2026.out':
+(rerunfilecheck)             Before: 333855BBFAB8C775228FFEBCB5FB39BE;1210
+(rerunfilecheck)             After:  1BA6BC6776F0F552517AB1041CBBF36B;5134.
  ) 
 Here is how much of TeX's memory you used:
- 38175 strings out of 475385
- 728831 string characters out of 2775019
- 1112042 words of memory out of 3000000
- 58486 multiletter control sequences out of 15000+600000
- 577187 words of font info for 134 fonts, out of 8000000 for 9000
+ 37779 strings out of 475385
+ 722759 string characters out of 2775019
+ 1101042 words of memory out of 3000000
+ 58311 multiletter control sequences out of 15000+600000
+ 544481 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,131p,3246b,758s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.en
-c}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.e
-nc}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-math
-sy.enc}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-
-mathit.enc}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ba
-se/8r.enc}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/
-lm-rm.enc}<C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-lm/lmbx10.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/lm/lmbx12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/lm/lmbx8.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/lm/lmcsc10.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/lm/lmmi12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/lm/lmmi8.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/dbiteniwe/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/dbiteniwe/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/dbiteniwe/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/dbiteniwe/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/urw/zapfchan/uzcmi8a.pfb><C:/Users/dbiteniwe/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on CoursTF2026.pdf (69 pages, 529323 bytes).
+ 84i,13n,131p,3246b,529s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
+}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc
+}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit
+.enc}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm
+.enc}<C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
+bx10.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
+m/lmbx12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/lm/lmmi8.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/lm/lmr10.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/lm/lmr12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/lm/lmr8.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/lm/lmri10.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/lm/lmri12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKT
+eX/fonts/type1/urw/zapfchan/uzcmi8a.pfb><C:/Users/dbiteniwe/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on CoursTF2026.pdf (15 pages, 241793 bytes).
 PDF statistics:
- 1017 PDF objects out of 1200 (max. 8388607)
- 237 named destinations out of 1000 (max. 500000)
- 850 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 183 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
