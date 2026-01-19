@@ -1,20 +1,73 @@
 \babel@toc {french}{}\relax 
-\contentsline {section}{Introduction Générale}{4}{chapter*.3}%
-\contentsline {chapter}{\numberline {1}Le Cadre Juridique et Institutionnel du Contentieux des Taxes Foncières}{8}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Les sources juridiques du contentieux des taxes foncières}{8}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Le Code général des impôts}{8}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Le Livre des procédures fiscales}{9}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Les textes relatifs à la décentralisation et à la fiscalité locale}{9}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2}Les acteurs institutionnels du contentieux des taxes foncières}{10}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}L’administration fiscale}{10}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Le service du Cadastre}{10}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Le comptable public}{10}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Les collectivités territoriales}{10}{subsection.1.2.4}%
-\contentsline {section}{\numberline {1.3}L’organisation du contentieux foncier au sein de l’administration fiscale}{11}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}La spécialisation des services}{11}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Le circuit de traitement des réclamations}{11}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}La coordination entre les services}{11}{subsection.1.3.3}%
-\contentsline {section}{Conclusion du chapitre}{11}{subsection.1.3.3}%
-\contentsline {chapter}{\numberline {2}La Taxe Foncière sur les Propriétés Bâties (TFPB)}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{12}{section.2.1}%
-\contentsline {chapter}{\numberline {3}Taxe Foncière sur les Propriétés Non Bâties (TFPNB)}{13}{chapter.3}%
+\contentsline {section}{Introduction Générale}{6}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Le Cadre Juridique et Institutionnel du Contentieux des Taxes Foncières}{10}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Les sources juridiques du contentieux des taxes foncières}{10}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Le Code général des impôts}{10}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Le Livre des procédures fiscales}{11}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Les textes relatifs à la décentralisation et à la fiscalité locale}{11}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Les acteurs institutionnels du contentieux des taxes foncières}{12}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}L’administration fiscale, acteur central du contentieux foncier}{12}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Le service du Cadastre : socle technique et acteur déterminant du contentieux foncier}{13}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Le comptable public et le contentieux du recouvrement}{13}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Les collectivités territoriales, bénéficiaires et parties prenantes du contentieux foncier}{13}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Les juridictions et la place résiduelle du juge fiscal}{14}{subsection.1.2.5}%
+\contentsline {section}{\numberline {1.3}L’organisation du contentieux des taxes foncières au sein de l’OTR}{14}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}La spécialisation des structures chargées du contentieux fiscal}{14}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Le circuit administratif de traitement des réclamations foncières}{15}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}La coordination entre les services fiscaux, cadastraux et de recouvrement}{15}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}L’OTR et la gestion administrative du contentieux fiscal}{16}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}La place résiduelle mais essentielle du juge dans l’organisation du contentieux}{16}{subsection.1.3.5}%
+\contentsline {section}{Conclusion du chapitre}{17}{subsection.1.3.5}%
+\contentsline {chapter}{\numberline {2}La typologie du contentieux des taxes foncières}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Le contentieux de l’assiette des taxes foncières}{18}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Notion et fondement juridique}{18}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Contestation de la base imposable}{19}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Contestation du redevable}{19}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Contestation des exonérations et dégrèvements}{20}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Le rôle déterminant du cadastre dans le contentieux de l’assiette}{20}{subsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.5.1}Erreurs de consistance des immeubles}{21}{subsubsection.2.1.5.1}%
+\contentsline {subsubsection}{\numberline {2.1.5.2}Erreurs de surface, d’usage ou de catégorie}{21}{subsubsection.2.1.5.2}%
+\contentsline {subsubsection}{\numberline {2.1.5.3}Litiges liés aux données cadastrales}{21}{subsubsection.2.1.5.3}%
+\contentsline {subsubsection}{\numberline {2.1.5.4}Le rôle de l'expert cadastral dans le règlement du litige}{22}{subsubsection.2.1.5.4}%
+\contentsline {section}{\numberline {2.2}Le contentieux du recouvrement des taxes foncières}{22}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Champ du contentieux du recouvrement}{22}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Contestation des actes de poursuite}{22}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Prescription et extinction de la dette}{23}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Autonomie du contentieux du recouvrement}{23}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Les recours gracieux en matière de taxes foncières}{24}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Fondement juridique des recours gracieux}{24}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Application aux taxes foncières}{24}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Les dégrèvements d’office et admissions en non-valeur}{24}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Conditions et portée des dégrèvements d’office}{24}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Intérêt particulier en matière foncière}{25}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Distinction entre contentieux, gracieux et procédures d’office}{25}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Critères juridiques de distinction}{25}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Conséquences procédurales}{25}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}L'importance de l'aiguillage pour le Cadastre}{25}{subsection.2.5.3}%
+\contentsline {chapter}{\numberline {3}La procédure contentieuse (contentieux de droit)}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Le principe du préalable administratif}{27}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Fondement juridique}{27}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Portée et justification}{28}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}La réclamation contentieuse préalable}{28}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Conditions de délai}{28}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Conditions de forme}{28}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Qualité du réclamant}{28}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Effets juridiques de la réclamation}{29}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}L’instruction de la réclamation en la forme}{29}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Vérification de la recevabilité}{29}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Demande de régularisation}{29}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Irrecevabilité et rejet}{29}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}L’instruction de la réclamation au fond}{29}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Vérification juridique}{30}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Vérification technique cadastrale}{30}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Enquêtes, visites et contrôles}{30}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}La décision administrative}{30}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Admission totale}{30}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Admission partielle}{30}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Rejet}{30}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Obligation de motivation}{31}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}Le sursis de paiement}{31}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Principe}{31}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Conditions}{31}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Garanties exigées}{31}{subsection.3.6.3}%
+\contentsline {section}{Conclusion du chapitre}{31}{subsection.3.6.3}%
