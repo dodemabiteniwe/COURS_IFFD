@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  19 JAN 2026 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  10 FEB 2026 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1682,6 +1682,9 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 6--6
 
 
 {C:/Users/dbiteniwe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 52.
+
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1694,27 +1697,63 @@ wever .
 
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[2] [3] [4] [5] (Chap3.aux)
-Package rerunfilecheck Info: File `Chap3.out' has not changed.
-(rerunfilecheck)             Checksum: 65F1A347ECD523D9B7AB5DF767061CAA;5221.
+[2] [3]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
+2.
+
+(C:\Users\dbiteniwe\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+[4] [5] [6] [7] [8] [9] (Chap3.aux)
+
+Package rerunfilecheck Warning: File `Chap3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Chap3.out':
+(rerunfilecheck)             Before: 971FCD18303A99F37CFBD49201336A17;7229
+(rerunfilecheck)             After:  81A2142B8BF15BEDA04D9011DD2448FE;7981.
  ) 
 Here is how much of TeX's memory you used:
- 37721 strings out of 475385
- 720100 string characters out of 2775019
- 1104398 words of memory out of 3000000
- 58299 multiletter control sequences out of 15000+600000
- 508583 words of font info for 75 fonts, out of 8000000 for 9000
+ 37820 strings out of 475385
+ 721793 string characters out of 2775019
+ 1107398 words of memory out of 3000000
+ 58355 multiletter control sequences out of 15000+600000
+ 523694 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,11n,148p,3264b,507s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.en
-c}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
-}<C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12
-.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
-r12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfc
-han/uzcmi8a.pfb>
-Output written on Chap3.pdf (5 pages, 92071 bytes).
+ 104i,11n,148p,3264b,758s stack positions out of 10000i,1000n,20000p,200000b,80000s
+
+pdfTeX warning (dest): name{subsection.1.6.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.6.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.6.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.6} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.5.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc
+}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc
+}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+<C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.
+pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
+12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmri12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/symbols/msam7.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/f
+onts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on Chap3.pdf (9 pages, 153475 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 232 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 245 words of extra memory for PDF output out of 10000 (max. 10000000)
 
