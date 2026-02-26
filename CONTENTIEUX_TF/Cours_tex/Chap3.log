@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  10 FEB 2026 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  11 FEB 2026 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1704,56 +1704,42 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
 (C:\Users\dbiteniwe\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-[4] [5] [6] [7] [8] [9] (Chap3.aux)
+[4] [5] [6] [7] [8] [9]
+Overfull \hbox (7.59604pt too wide) in paragraph at lines 378--380
+\T1/lmr/m/n/12 L'Administration main-tient in-té-gra-le-ment l'im-po-si-tion in
+i-tiale, es-ti-mant que le contri-
+ []
+
+[10] [11] [12] [13] (Chap3.aux)
 
 Package rerunfilecheck Warning: File `Chap3.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Chap3.out':
-(rerunfilecheck)             Before: 971FCD18303A99F37CFBD49201336A17;7229
-(rerunfilecheck)             After:  81A2142B8BF15BEDA04D9011DD2448FE;7981.
+(rerunfilecheck)             Before: 30C85BED4F9EC24444C31F3BBABD6F38;11111
+(rerunfilecheck)             After:  1BB5E085512487440699BB61A86FC611;10935.
  ) 
 Here is how much of TeX's memory you used:
- 37820 strings out of 475385
- 721793 string characters out of 2775019
+ 37840 strings out of 475385
+ 722098 string characters out of 2775019
  1107398 words of memory out of 3000000
- 58355 multiletter control sequences out of 15000+600000
+ 58364 multiletter control sequences out of 15000+600000
  523694 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,11n,148p,3264b,758s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{subsection.1.6.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.6.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.6.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.1.6} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.5.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc
-}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc
-}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-<C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.
-pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
-12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
-lmri12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/symbols/msam7.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/f
-onts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on Chap3.pdf (9 pages, 153475 bytes).
+{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.e
+nc}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.e
+nc}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.en
+c}<C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx1
+2.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+mr12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
+m/lmri12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/symbols/msam7.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX
+/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on Chap3.pdf (13 pages, 174758 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 280 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
