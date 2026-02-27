@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  7 JAN 2026 18:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  27 FEB 2026 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1678,6 +1678,11 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 7--7
 [][][][][][][][][]  
  []
 
+
+Overfull \hbox (0.7649pt too wide) in paragraph at lines 23--23
+|[]\T1/lmr/bx/n/17.28 L'architecture nor-ma-tive : Les sources du conten-
+ []
+
 [1
 
 
@@ -1694,39 +1699,34 @@ wever .
 
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[2]
-Overfull \hbox (2.78172pt too wide) in paragraph at lines 94--94
-|[]\T1/lmr/bx/n/14.4 L'administration fis-cale, ac-teur cen-tral du conten-tieu
-x fon-
- []
-
-[3] [4] [5] [6] [7] [8] (Chap1.aux)
+[2] [3] [4] [5] [6] (Chap1.aux)
 
 Package rerunfilecheck Warning: File `Chap1.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Chap1.out':
-(rerunfilecheck)             Before: D4F6E60E52C509906024F896917E2245;5615
-(rerunfilecheck)             After:  C7460F62A9CB46BA634607DDDC767985;6964.
+(rerunfilecheck)             Before: AB734DE446BC7D3C6FFB3D0574338E53;6249
+(rerunfilecheck)             After:  CD320AA962D91E923A8E36D06CC54CF6;6073.
  ) 
 Here is how much of TeX's memory you used:
- 37709 strings out of 475385
- 719875 string characters out of 2775019
- 1105398 words of memory out of 3000000
- 58293 multiletter control sequences out of 15000+600000
- 508583 words of font info for 75 fonts, out of 8000000 for 9000
+ 37716 strings out of 475385
+ 719960 string characters out of 2775019
+ 1106398 words of memory out of 3000000
+ 58300 multiletter control sequences out of 15000+600000
+ 515843 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,11n,148p,3264b,507s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 104i,11n,148p,3264b,655s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.en
 c}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
 }<C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12
 .pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
-r12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfc
-han/uzcmi8a.pfb>
-Output written on Chap1.pdf (8 pages, 101202 bytes).
+r12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
+/lmri12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/z
+apfchan/uzcmi8a.pfb>
+Output written on Chap1.pdf (6 pages, 112035 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
  141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
