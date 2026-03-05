@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  27 FEB 2026 18:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  5 MAR 2026 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1666,7 +1666,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 28.
-<logoOTRsup.jpg, id=537, 136.3275pt x 69.9705pt>
+<logoOTRsup.jpg, id=534, 136.3275pt x 69.9705pt>
 File: logoOTRsup.jpg Graphic file (type jpg)
 <use logoOTRsup.jpg>
 Package pdftex.def Info: logoOTRsup.jpg  used on input line 58.
@@ -1835,9 +1835,6 @@ Overfull \hbox (11.00322pt too wide) in paragraph at lines 296--304
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [24]) (Chap3.tex [25]
 Chapitre 3.
 
@@ -1930,21 +1927,15 @@ Overfull \hbox (1.47125pt too wide) in paragraph at lines 110--110
 [60] [61]) (Ccl.tex [62]) [63
 
 ] (Cours_contentieuxTF2026.aux (pagegardIFFD.aux))
-
-Package rerunfilecheck Warning: File `Cours_contentieuxTF2026.out' has changed.
-
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Cours_contentieuxTF2026.out':
-(rerunfilecheck)             Before: 8E2424A83601B904AEA6BE9B9AEBD9C1;45154
-(rerunfilecheck)             After:  C356F53C3CDBA368A1ED57399011BDB2;44977.
+Package rerunfilecheck Info: File `Cours_contentieuxTF2026.out' has not changed
+.
+(rerunfilecheck)             Checksum: C356F53C3CDBA368A1ED57399011BDB2;44977.
  ) 
 Here is how much of TeX's memory you used:
- 38311 strings out of 475385
- 730155 string characters out of 2775019
+ 38312 strings out of 475385
+ 730164 string characters out of 2775019
  1114635 words of memory out of 3000000
- 58588 multiletter control sequences out of 15000+600000
+ 58589 multiletter control sequences out of 15000+600000
  571569 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,131p,3258b,1055s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1967,9 +1958,9 @@ ms/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/dbiteniwe/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/dbiteniwe
 /AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfchan/uzcmi8a.pfb><C:/Users/d
 biteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Cours_contentieuxTF2026.pdf (64 pages, 581759 bytes).
+Output written on Cours_contentieuxTF2026.pdf (64 pages, 581232 bytes).
 PDF statistics:
- 1169 PDF objects out of 1200 (max. 8388607)
+ 1165 PDF objects out of 1200 (max. 8388607)
  273 named destinations out of 1000 (max. 500000)
- 1082 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1074 words of extra memory for PDF output out of 10000 (max. 10000000)
 
