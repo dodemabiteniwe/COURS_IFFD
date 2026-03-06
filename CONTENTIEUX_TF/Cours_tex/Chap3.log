@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  11 FEB 2026 09:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  6 MAR 2026 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1711,20 +1711,14 @@ i-tiale, es-ti-mant que le contri-
  []
 
 [10] [11] [12] [13] (Chap3.aux)
-
-Package rerunfilecheck Warning: File `Chap3.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Chap3.out':
-(rerunfilecheck)             Before: 30C85BED4F9EC24444C31F3BBABD6F38;11111
-(rerunfilecheck)             After:  1BB5E085512487440699BB61A86FC611;10935.
+Package rerunfilecheck Info: File `Chap3.out' has not changed.
+(rerunfilecheck)             Checksum: 0CF4E4356094C7432FD0E1A9B504B756;11055.
  ) 
 Here is how much of TeX's memory you used:
- 37840 strings out of 475385
- 722098 string characters out of 2775019
+ 37843 strings out of 475385
+ 722149 string characters out of 2775019
  1107398 words of memory out of 3000000
- 58364 multiletter control sequences out of 15000+600000
+ 58367 multiletter control sequences out of 15000+600000
  523694 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,11n,148p,3264b,758s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1737,9 +1731,9 @@ mr12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
 m/lmri12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/symbols/msam7.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX
 /fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on Chap3.pdf (13 pages, 174758 bytes).
+Output written on Chap3.pdf (13 pages, 174980 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
+ 277 PDF objects out of 1000 (max. 8388607)
  73 named destinations out of 1000 (max. 500000)
- 301 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 

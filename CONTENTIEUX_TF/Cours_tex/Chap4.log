@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  11 FEB 2026 12:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  6 MAR 2026 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1721,34 +1721,54 @@ Overfull \hbox (13.32314pt too wide) in paragraph at lines 117--117
 é contri-
  []
 
-[4]
-Overfull \hbox (4.65973pt too wide) in paragraph at lines 173--174
-[]\T1/lmr/m/n/12 L'instruction de la de-mande gra-cieuse dif-fère fon-da-men-ta
--le-ment de l'ins-truc-tion conten-
- []
+[4] [5] [6] [7] (Chap4.aux)
 
-[5] [6] [7] [8] [9] (Chap4.aux)
-Package rerunfilecheck Info: File `Chap4.out' has not changed.
-(rerunfilecheck)             Checksum: 87FC92D815F406E7AC0B4738BC01DECC;6867.
+Package rerunfilecheck Warning: File `Chap4.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Chap4.out':
+(rerunfilecheck)             Before: 87FC92D815F406E7AC0B4738BC01DECC;6867
+(rerunfilecheck)             After:  8C1569DC902D9281F1A89D85A3976137;5358.
  ) 
 Here is how much of TeX's memory you used:
- 37741 strings out of 475385
- 720226 string characters out of 2775019
+ 37738 strings out of 475385
+ 720216 string characters out of 2775019
  1106398 words of memory out of 3000000
  58306 multiletter control sequences out of 15000+600000
  515843 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,11n,148p,3264b,756s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.en
-c}{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
-}<C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12
-.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
-r12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
-/lmri12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/z
-apfchan/uzcmi8a.pfb>
-Output written on Chap4.pdf (9 pages, 141480 bytes).
+ 104i,11n,148p,3264b,755s stack positions out of 10000i,1000n,20000p,200000b,80000s
+
+pdfTeX warning (dest): name{subsection.1.5.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.5.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.5.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.5.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
+{C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<
+C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.p
+fb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr1
+2.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+mri12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zap
+fchan/uzcmi8a.pfb>
+Output written on Chap4.pdf (7 pages, 132608 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
+ 165 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
  173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

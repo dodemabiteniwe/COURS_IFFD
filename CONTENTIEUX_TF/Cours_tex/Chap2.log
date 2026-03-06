@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  5 MAR 2026 16:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.13)  6 MAR 2026 08:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1759,10 +1759,10 @@ Package rerunfilecheck Info: File `Chap2.out' has not changed.
 (rerunfilecheck)             Checksum: FE0DD56014B7DE1C5DE4D9156AA6F469;7507.
  ) 
 Here is how much of TeX's memory you used:
- 37805 strings out of 475385
- 721671 string characters out of 2775019
+ 37808 strings out of 475385
+ 721726 string characters out of 2775019
  1106398 words of memory out of 3000000
- 58361 multiletter control sequences out of 15000+600000
+ 58364 multiletter control sequences out of 15000+600000
  526529 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,11n,148p,3264b,622s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1776,9 +1776,9 @@ mcsc10.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1/public
 lic/lm/lmri12.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/symbols/msam7.pfb><C:/Users/dbiteniwe/AppData/Local/Programs/M
 iKTeX/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on Chap2.pdf (9 pages, 173149 bytes).
+Output written on Chap2.pdf (9 pages, 173366 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
+ 203 PDF objects out of 1000 (max. 8388607)
  40 named destinations out of 1000 (max. 500000)
  221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
