@@ -1,0 +1,308 @@
+\documentclass[a4paper, 11pt]{exam}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{xcolor}
+\geometry{margin=2.5cm}
+
+% Personnalisation de l'en-tête et du pied de page
+\pagestyle{headandfoot}
+\firstpageheader{IFFD}{Travaux Dirigés - Cadastre}{Contentieux des taxes foncière}
+\runningheader{Travaux Dirigés}{}{Contentieux des taxes foncière}
+\firstpagefooter{}{Page \thepage\ sur \numpages}{}
+\runningfooter{}{Page \thepage\ sur \numpages}{}
+
+% Personnalisation de l'affichage des solutions
+\renewcommand{\solutiontitle}{\noindent\textbf{Éléments de correction :}\par\noindent}
+\unframedsolutions % ou \framedsolutions pour encadrer les réponses
+\SolutionEmphasis{\itshape\color{blue}} % Nécessite le package xcolor si utilisé, sinon juste \itshape
+
+\begin{document}
+	
+	\begin{center}
+		\Large \textbf{CAS PRATIQUES : INSTRUCTION DES RÉCLAMATIONS} \\[0.5cm]
+		\normalsize \textit{Identifiez la nature de chaque requête, prononcez-vous sur sa recevabilité et proposez la solution à adopter au regard des dispositions du Code Général des Impôts (CGI) et du Livre des Procédures Fiscales (LPF).}
+	\end{center}
+	
+	\vspace{0.5cm}
+	
+	\begin{questions}
+		
+		% ---------------- CAS 1 ----------------
+		\question \textbf{Dossier KODJO Koffi}
+		
+		\textit{Courrier reçu le 20 février 2026. Objet : Réclamation contre l'avis d'imposition n° 2026-TF-4589. Pièces jointes : Copie de l'avis d'imposition, photographies de l'immeuble.}
+		
+		« (...) Il ressort de cet avis que je suis imposé sur un bâtiment de type R+2 évalué à une valeur locative de 4 500 000 FCFA. Or, je conteste formellement cette évaluation. Si le rez-de-chaussée et le premier étage sont effectivement achevés et habités depuis l'année dernière, le deuxième étage est actuellement à l'état de gros œuvre (murs montés, mais sans toiture, ni portes, ni fenêtres), comme en attestent les photographies jointes à ce courrier. (...) Je vous prie donc de bien vouloir mandater vos services techniques pour constater l'inachèvement et procéder à la réduction proportionnelle de ma base imposable. »
+		
+		\begin{parts}
+			\part Qualifiez la nature de la requête et analysez sa recevabilité formelle.
+			\begin{solution}
+				\textbf{Nature :} Contentieux d'évaluation (contestation de l'état d'achèvement affectant la base imposable). \\
+				\textbf{Recevabilité :} La réclamation est recevable en la forme. Elle est signée, motive la demande et est accompagnée de l'avis d'imposition (conformément au LPF).
+			\end{solution}
+			\part Quelle suite l'inspecteur du Cadastre doit-il donner à ce dossier au fond ?
+			\begin{solution}
+				Le CGI prévoit que la taxe foncière frappe les propriétés bâties achevées. L'état d'inachèvement du 2ème étage (impropre à l'utilisation) justifie une révision. L'inspecteur doit programmer un transport sur les lieux pour vérifier la réalité des photographies. Si le constat est positif, un dégrèvement partiel correspondant à la valeur locative du 2ème étage sera prononcé.
+			\end{solution}
+		\end{parts}
+		
+		\vspace{0.5cm}
+		
+		% ---------------- CAS 2 ----------------
+		\question \textbf{Dossier AMEGAN Afiwa}
+		
+		\textit{Courrier reçu le 05 mars 2026. Objet : Réclamation contentieuse pour erreur d'évaluation cadastrale. Pièces jointes : Avis d'imposition, plan de construction.}
+		
+		« (...) Vos services ont classé ma maison dans la catégorie « Villa de grand standing » (Catégorie 1), ce qui entraîne une majoration significative du tarif au mètre carré. Je tiens à préciser qu'il s'agit d'une simple habitation de type « cour commune » construite en matériaux définitifs standards, sans dalle (toiture en tôle), sans piscine, et située dans une rue non bitumée et non desservie par le réseau d'assainissement public. Cette classification est manifestement erronée... Je sollicite une révision de la catégorie de mon immeuble et le dégrèvement partiel. »
+		
+		\begin{parts}
+			\part Quelle est la nature du contentieux soulevé par la redevable ?
+			\begin{solution}
+				\textbf{Nature :} Contentieux d'évaluation portant sur l'application des tarifs catégoriels (erreur de classification de standing).
+			\end{solution}
+			\part Décrivez la démarche d'instruction à entreprendre.
+			\begin{solution}
+				La valeur locative cadastrale dépend de la catégorie du bien, définie par des critères physiques et de confort prévus par le CGI. L'agent doit consulter la matrice cadastrale pour vérifier comment le bien a été initialement évalué. Ensuite, une visite de terrain est requise de manière contradictoire pour acter l'absence des éléments de confort (dalle, piscine, voirie). Si la catégorie "cour commune" est avérée, la base sera recalculée et le dégrèvement partiel accordé.
+			\end{solution}
+		\end{parts}
+		
+		\vspace{0.5cm}
+		
+		% ---------------- CAS 3 ----------------
+		\question \textbf{Dossier Complexe Scolaire « L'Avenir » (M. TCHALLA)}
+		
+		\textit{Courrier reçu le 12 mars 2026. Objet : Demande de décharge de taxe foncière. Pièces jointes : Avis d'imposition, arrêté d'ouverture.}
+		
+		« (...) Vous nous réclamez la somme de 850 000 FCFA au titre de l'imposition de nos locaux. Or, l'intégralité des bâtiments de notre parcelle est affectée de manière exclusive et permanente à l'enseignement. En vertu des dispositions du CGI relatives aux exonérations permanentes, les édifices affectés à l'enseignement n'ayant pas un but lucratif ou respectant les tarifs réglementés, sont exemptés. Je vous prie donc de bien vouloir prononcer le dégrèvement total. »
+		
+		\begin{parts}
+			\part La demande d'exonération est-elle suffisamment étayée ? Précisez l'action de l'Administration.
+			\begin{solution}
+				\textbf{Nature :} Contentieux d'évaluation (application d'une exonération légale permanente). \\
+				\textbf{Instruction :} L'arrêté d'ouverture prouve l'affectation à l'enseignement, mais ce n'est pas suffisant. L'exonération prévue par le CGI est conditionnelle. L'Administration doit adresser une demande de pièces complémentaires pour exiger les statuts (pour vérifier le but non lucratif) ou la grille tarifaire (pour vérifier l'application des tarifs fixés par l'État). Sans ces preuves, la réclamation sera rejetée.
+			\end{solution}
+		\end{parts}
+		
+		\vspace{0.5cm}
+		
+		% ---------------- CAS 4 ----------------
+		\question \textbf{Dossier LAWSON Kossi}
+		
+		\textit{Courrier reçu le 15 février 2026. Objet : Contestation de redevabilité. Pièces jointes : Avis d'imposition, attestation notariale de vente.}
+		
+		« (...) Je vous informe par la présente que je ne suis plus le propriétaire légal de ce bien immobilier. En effet, j'ai cédé cette propriété à Monsieur SOSSOU Kokou par acte notarié en date du 10 novembre 2024. La mutation a d'ailleurs été dûment enregistrée. L'imposition 2026 ayant été établie à mon nom à tort, je vous prie de bien vouloir annuler cette cote à mon égard et de l'émettre au nom du véritable redevable. »
+		
+		\begin{parts}
+			\part Identifiez la nature du litige et le fondement juridique de la décision à prendre.
+			\begin{solution}
+				\textbf{Nature :} Contentieux d'attribution (mutation de propriété / qualité du redevable). \\
+				\textbf{Fondement :} La taxe foncière est due par le propriétaire au 1er janvier de l'année d'imposition. La vente ayant eu lieu en 2024, M. LAWSON n'est plus redevable pour l'année 2026. Au vu de l'attestation notariale, l'Administration doit prononcer le dégrèvement total de la cote au nom de LAWSON, mettre à jour la matrice cadastrale, et émettre un rôle supplémentaire au nom de SOSSOU (le nouveau propriétaire).
+			\end{solution}
+		\end{parts}
+		
+		\vspace{0.5cm}
+		
+		% ---------------- CAS 5 ----------------
+		\question \textbf{Dossier BATCHASSI Pitalou}
+		
+		\textit{Courrier reçu le 28 février 2026. Objet : Réclamation - Imposition établie au nom du locataire. Pièces jointes : Avis d'imposition, contrat de bail.}
+		
+		« (...) Je vous signale qu'une erreur d'attribution a été commise par le service du Cadastre. Je suis en effet le locataire de cette maison depuis trois ans, et non le propriétaire. Le véritable propriétaire de cet immeuble est Monsieur ALI Esso. Je joins à ce courrier une copie de mon contrat de bail. La taxe foncière étant un impôt à la charge du propriétaire du bien, je vous demande de procéder au dégrèvement de cette cote établie à mon nom. »
+		
+		\begin{parts}
+			\part Comment l'inspecteur doit-il solder ce dossier ?
+			\begin{solution}
+				\textbf{Nature :} Contentieux d'attribution (erreur sur le redevable légal). \\
+				\textbf{Solution :} Conformément au CGI, le locataire n'est pas le débiteur légal de la taxe foncière. Le contrat de bail prouve la qualité de locataire de M. BATCHASSI. Un certificat de dégrèvement total doit être ordonnancé pour annuler sa dette. Le Cadastre procèdera ensuite à la recherche de M. ALI Esso pour établir l'imposition à son nom.
+			\end{solution}
+		\end{parts}
+		
+		\vspace{0.5cm}
+		
+		% ---------------- CAS 6 ----------------
+		\question \textbf{Dossier KOMBATE Yawa}
+		
+		\textit{Courrier reçu le 10 avril 2026. Objet : Demande d'informations sur les modalités déclaratives. Pièces jointes : Aucune.}
+		
+		« (...) Je viens de débuter des travaux d'agrandissement de ma maison (construction d'une annexe). Ne voulant pas être en infraction, je souhaiterais obtenir des renseignements sur la démarche à suivre. À quel moment dois-je déclarer ces nouvelles constructions à vos services cadastraux et comment cette extension impactera-t-elle ma base imposable ? »
+		
+		\begin{parts}
+			\part S'agit-il d'une réclamation contentieuse régie par le LPF ? Formulez la réponse à apporter.
+			\begin{solution}
+				\textbf{Nature :} Il ne s'agit pas d'un contentieux, mais d'une simple \textbf{demande de renseignement} (procédure non contentieuse). \\
+				\textbf{Réponse :} L'Administration doit informer la contribuable de ses obligations déclaratives stipulées par le CGI. Elle dispose généralement d'un délai légal (ex: 90 jours) suivant l'achèvement définitif des travaux pour souscrire une déclaration d'achèvement. Cette extension augmentera la surface utile et entraînera donc une majoration de la valeur locative cadastrale, mais pourra éventuellement bénéficier de l'exonération temporaire accordée aux constructions nouvelles, sous réserve d'une déclaration dans les délais.
+			\end{solution}
+		\end{parts}
+		
+	\end{questions}
+	
+	\section*{ANALYSE DE CONTENTIEUX - SÉRIE COMPLÉMENTAIRE}
+	
+	Analyser les cas ci-dessous au regard : de la forme des réclamations, des délais de réclamation, et des décisions à prendre. Pour chacun des cas proposés vous indiquerez la solution à retenir en motivant vos décisions (articles du CGI, du LPF...) et la suite à donner pour clôturer l'affaire.
+	
+	\begin{questions}
+		
+		% --- Contentieux d'évaluation ---
+		
+		\question Le 10/02/2021, M. ABALO conteste l'imposition à la TFB 2020 de son immeuble R+1. Il affirme que le rez-de-chaussée est achevé et occupé depuis 2018, mais que l'étage est toujours en chantier (murs montés, sans toiture ni menuiseries). L'avis d'imposition 2020 taxe l'ensemble du bâtiment (R+1). L'instruction du 05/03/2021 confirme l'inachèvement de l'étage.
+		\begin{solution}
+			Contestation de la TFB 2020 (évaluation / inachèvement).
+			\begin{itemize}
+				\item \textbf{En la forme} : Réclamation recevable pour 2020 (dans le délai général).
+				\item \textbf{Au fond} : L'article 270 du CGI pose le principe de l'imposition des seules propriétés bâties \textit{achevées}. L'étage n'étant pas utilisable au 01/01/2020, il ne doit pas être imposé en bâti.
+				\item \textbf{DECISION} : ADMISSION PARTIELLE. Dégrèvement de la fraction de taxe correspondant à la valeur locative de l'étage. Maintien de l'imposition pour le rez-de-chaussée.
+			\end{itemize}
+		\end{solution}
+		
+		\question La société BETA SA, propriétaire d'un terrain non bâti de 5000 m², reçoit son avis de TFPNB 2020. Le 15/11/2020, elle réclame un dégrèvement au motif qu'une partie de son terrain (1000 m²) est frappée d'une servitude d'utilité publique l'empêchant d'y construire.
+		\begin{solution}
+			Contestation de la TFPNB 2020 (évaluation / base imposable).
+			\begin{itemize}
+				\item \textbf{En la forme} : Réclamation recevable.
+				\item \textbf{Au fond} : La servitude d'utilité publique ne retire pas la propriété du terrain à la société, ni son caractère imposable en tant que propriété non bâtie. Sauf disposition contraire spécifique du CGI prévoyant un abattement pour ce type de servitude, la surface totale reste imposable.
+				\item \textbf{DECISION} : REJET. Maintien de l'imposition sur les 5000 m².
+			\end{itemize}
+		\end{solution}
+		
+		\question M. KOSSI adresse le 05/01/2022 une réclamation pour contester la taxe foncière 2020 de sa villa. Il a constaté que le Cadastre a compté 4 salles de bains au lieu de 2, gonflant ainsi les équivalences superficielles et la valeur locative. L'inspection sur place le 20/01/2022 confirme l'erreur matérielle (2 salles de bains réelles).
+		\begin{solution}
+			Contestation de la TFB 2020 (évaluation / erreur matérielle de saisie).
+			\begin{itemize}
+				\item \textbf{En la forme} : La réclamation du 05/01/2022 contre l'imposition 2020 est \textbf{hors délai} (expiration au 31/12/2021 en principe).
+				\item \textbf{Au fond} : L'erreur matérielle de l'Administration est avérée.
+				\item \textbf{DECISION} : REJET de la réclamation (irrecevable en la forme). \textbf{Mais}, mise en œuvre immédiate du \textbf{dégrèvement d'office} par l'Administration pour réparer sa propre erreur matérielle, conformément au pouvoir de restitution (Art. 418 LPF). Mise à jour de la base pour 2022.
+			\end{itemize}
+		\end{solution}
+		
+		\question Une clinique privée conteste le 15/10/2020 son imposition à la TFB 2020. Elle revendique l'exonération permanente prévue pour les édifices affectés à l'assistance médicale. L'instruction révèle que la clinique fonctionne à but très lucratif et applique des tarifs libres, bien supérieurs aux tarifs conventionnels.
+		\begin{solution}
+			Contestation de la TFB 2020 (demande d'exonération).
+			\begin{itemize}
+				\item \textbf{En la forme} : Réclamation recevable.
+				\item \textbf{Au fond} : L'exonération des établissements médicaux prévue par le CGI est strictement conditionnée à un but non lucratif ou au respect des tarifs réglementés par l'État. Ces conditions n'étant pas remplies, l'immeuble est imposable de plein droit.
+				\item \textbf{DECISION} : REJET. Notification motivée par le caractère lucratif de l'établissement.
+			\end{itemize}
+		\end{solution}
+		
+		\question Le 20/12/2020, M. SOKO demande l'annulation de la TFB 2020 sur son magasin. Il produit un arrêté municipal ordonnant la fermeture temporaire de son commerce pour raisons de sécurité (travaux de voirie devant le magasin) de mars à novembre 2020.
+		\begin{solution}
+			Contestation TFB 2020 (demande de dégrèvement pour vacance).
+			\begin{itemize}
+				\item \textbf{En la forme} : Réclamation recevable.
+				\item \textbf{Au fond} : Le CGI peut prévoir un dégrèvement pour inexploitation d'un immeuble commercial si l'inexploitation est indépendante de la volonté du propriétaire et dure un certain temps (souvent 3 mois minimum). L'arrêté municipal prouve la force majeure et la durée (9 mois).
+				\item \textbf{DECISION} : ADMISSION PARTIELLE. Dégrèvement accordé au prorata des mois de fermeture constatée.
+			\end{itemize}
+		\end{solution}
+		
+		% --- Contentieux d'attribution et qualité du redevable ---
+		
+		\question M. TONYE, usufruitier d'un immeuble depuis le décès de son père en 2018, reçoit la TFB 2020. Le 10/09/2020, il la conteste au motif que ses enfants en sont les nus-propriétaires et devraient payer cet impôt patrimonial.
+		\begin{solution}
+			Contentieux d'attribution (qualité du redevable légal).
+			\begin{itemize}
+				\item \textbf{En la forme} : Réclamation recevable.
+				\item \textbf{Au fond} : En droit fiscal (conformément aux principes du CGI), c'est l'usufruitier qui a la jouissance du bien et qui en perçoit les fruits (ou pourrait les percevoir). Il est le redevable légal exclusif de la taxe foncière, et non le nu-propriétaire.
+				\item \textbf{DECISION} : REJET. L'imposition au nom de l'usufruitier est légale.
+			\end{itemize}
+		\end{solution}
+		
+		\question Le 05/11/2020, l'ONG "Enfants d'abord" conteste la TFB 2020 émise à son nom pour l'immeuble qu'elle occupe gratuitement. Elle produit une convention de mise à disposition gratuite signée avec le propriétaire, M. ALI, qui stipule que "la taxe foncière sera prise en charge par l'occupant".
+		\begin{solution}
+			Contentieux d'attribution (conflit entre droit fiscal et contrat privé).
+			\begin{itemize}
+				\item \textbf{En la forme} : Réclamation recevable.
+				\item \textbf{Au fond} : Le CGI désigne le propriétaire (M. ALI) comme l'unique redevable légal de la taxe foncière. Les conventions privées (bail, mise à disposition) qui transfèrent la charge de l'impôt à l'occupant sont inopposables à l'Administration fiscale. L'ONG n'est pas le redevable légal.
+				\item \textbf{DECISION} : ADMISSION TOTALE pour l'ONG (dégrèvement de la cote à son nom). Émission immédiate d'une Imposition Supplémentaire (IS) au nom de M. ALI, véritable propriétaire.
+			\end{itemize}
+		\end{solution}
+		
+		\question Suite à un divorce prononcé et publié le 15/12/2019, Mme MENSAH s'est vu attribuer la pleine propriété de la maison familiale. Cependant, la TFB 2020 a été émise au nom de "M. et Mme MENSAH". M. MENSAH (l'ex-mari) fait une réclamation le 12/10/2020 pour être retiré de l'imposition.
+		\begin{solution}
+			Contentieux d'attribution (mise à jour suite à mutation/divorce).
+			\begin{itemize}
+				\item \textbf{En la forme} : Réclamation recevable.
+				\item \textbf{Au fond} : Au 01/01/2020, Mme MENSAH était l'unique propriétaire suite à la publication du jugement de divorce. L'imposition conjointe est erronée (article 284 du CGI).
+				\item \textbf{DECISION} : ADMISSION TOTALE pour la cote conjointe. Dégrèvement de la cote "M. et Mme". Émission d'une nouvelle cote (rôle de rattrapage) au nom exclusif de Mme MENSAH pour 2020.
+			\end{itemize}
+		\end{solution}
+		
+		% --- Demandes gracieuses ---
+		
+		\question Mme KPOGO, retraitée, adresse une lettre le 20/11/2020 concernant sa TFB 2020. Elle reconnaît que le montant est exact, mais explique que sa modeste pension ne lui permet pas de payer la totalité en une seule fois et demande l'indulgence de l'Administration.
+		\begin{solution}
+			Demande relevant de la juridiction gracieuse.
+			\begin{itemize}
+				\item \textbf{Analyse} : Il n'y a aucune contestation du bien-fondé de l'impôt (pas de contentieux d'assiette). La contribuable demande une facilité de paiement.
+				\item \textbf{Traitement} : Le service d'assiette se déclare incompétent. Le courrier doit être transmis au service du Recouvrement (le Receveur) pour instruire une demande d'échéancier (plan de règlement) ou de modération, selon sa situation réelle.
+			\end{itemize}
+		\end{solution}
+		
+		\question M. GOMIS a reçu des pénalités de retard (10\%) car il a payé sa TF 2019 en février 2020. Le 15/03/2020, il demande l'annulation de ces pénalités, prouvant par un certificat médical qu'il était hospitalisé dans le coma d'octobre 2019 à janvier 2020.
+		\begin{solution}
+			Demande de remise gracieuse de pénalités.
+			\begin{itemize}
+				\item \textbf{Analyse} : L'impôt principal n'est pas contesté. La demande vise une remise de la majoration légale pour paiement tardif.
+				\item \textbf{Traitement} : Il s'agit d'une demande gracieuse. Le cas de force majeure (hospitalisation grave et incapacité d'agir) est caractérisé.
+				\item \textbf{DECISION} : Remise gracieuse totale des pénalités de retard.
+			\end{itemize}
+		\end{solution}
+		
+		% --- Omissions et Impositions Supplémentaires ---
+		
+		\question Lors d'une tournée de vérification en octobre 2020, l'inspecteur constate qu'une villa cossue, achevée manifestement depuis plusieurs années, n'est pas imposée. Le propriétaire avoue l'avoir achevée en 2015 mais n'a jamais déposé la déclaration d'achèvement.
+		\begin{solution}
+			Omission d'imposition (propriété bâtie non déclarée).
+			\begin{itemize}
+				\item \textbf{Analyse} : Défaut de déclaration privant l'Administration de la base imposable. Perte définitive du droit à l'exonération temporaire des constructions nouvelles.
+				\item \textbf{Action} : Évaluation d'office de la villa. Mise en œuvre du droit de reprise de l'Administration (Rôle Particulier / Rôle de rattrapage). L'imposition remontera sur les années non prescrites (en général l'année en cours + les 3 ou 4 années antérieures selon les dispositions locales du CGI). Application des pénalités pour défaut de déclaration.
+			\end{itemize}
+		\end{solution}
+		
+		\question Le 02/08/2020, le Cadastre reçoit de la Mairie un arrêté ordonnant la démolition immédiate d'un immeuble menaçant ruine. La démolition est constatée le 15/08/2020. Le rôle de TFB 2020 avait déjà été émis en juin 2020.
+		\begin{solution}
+			Changement d'affectation / destruction en cours d'année.
+			\begin{itemize}
+				\item \textbf{Analyse} : Au 01/01/2020, le bâtiment existait. Le principe de l'annualité s'applique, la TFB 2020 est due pour l'année entière malgré la destruction en août.
+				\item \textbf{Action} : Aucune modification pour 2020 (rejet si le contribuable réclame). \textbf{Mais}, mise à jour immédiate de la matrice pour 2021 : le bien basculera en TFPNB (terrain à bâtir) au 01/01/2021.
+			\end{itemize}
+		\end{solution}
+		
+		% --- Cas mixtes et irrecevabilité ---
+		
+		\question M. DOSSOU conteste le 15/05/2020 sa taxe foncière 2020 par email, sans joindre l'avis d'imposition et sans préciser le numéro de la parcelle. Il indique simplement : "Je paie trop cher pour ma maison à Bè".
+		\begin{solution}
+			Vice de forme de la réclamation.
+			\begin{itemize}
+				\item \textbf{En la forme} : Réclamation \textbf{irrecevable}. Elle ne permet pas d'identifier l'imposition contestée (absence de l'avis ou des références cadastrales) et n'est pas signée manuscritement (si le droit local ne reconnaît pas l'email simple comme valant signature).
+				\item \textbf{Traitement} : Le service doit envoyer une lettre l'invitant à régulariser sa demande (fournir l'avis et signer) dans un délai imparti. Si la régularisation n'est pas faite, la décision sera un REJET pour vice de forme.
+			\end{itemize}
+		\end{solution}
+		
+		\question Une SCI propriétaire d'un immeuble loué à l'État (Ministère de la Santé) réclame l'exonération de TFB pour 2020, arguant que le bâtiment sert au service public médical. L'instruction confirme l'usage, mais note que la SCI perçoit un loyer mensuel très élevé de l'État.
+		\begin{solution}
+			Contestation sur une demande d'exonération liée à l'affectation.
+			\begin{itemize}
+				\item \textbf{En la forme} : Réclamation recevable.
+				\item \textbf{Au fond} : L'exonération des bâtiments publics ou d'assistance s'applique lorsque l'affectation est non lucrative. La SCI étant une entité privée qui tire un revenu foncier (lucratif) de la location de son bien, même à l'État, elle reste imposable à la TFB.
+				\item \textbf{DECISION} : REJET.
+			\end{itemize}
+		\end{solution}
+		
+		\question Le 10/11/2020, un contribuable conteste la TFB 2020. Il a acquis un terrain en mars 2019. L'acte notarié précise que "la taxe foncière 2019 sera proratisée entre le vendeur et l'acheteur". Il demande à l'OTR d'appliquer ce prorata sur le rôle de 2019 et de lui rembourser la part du vendeur qu'il a payée par erreur.
+		\begin{solution}
+			Contestation basée sur une convention privée.
+			\begin{itemize}
+				\item \textbf{En la forme} : Réclamation recevable (si encore dans le délai de réclamation pour 2019).
+				\item \textbf{Au fond} : La taxe foncière est due pour l'année entière par le propriétaire au 1er janvier (le vendeur, puisque la vente est intervenue en mars 2019). L'Administration fiscale n'applique pas les proratas contractuels (conventions inopposables au fisc).
+				\item \textbf{DECISION} : L'Administration maintient l'imposition entière au nom du vendeur pour 2019. Si l'acheteur a payé à la place du vendeur, le litige relève du droit privé entre les deux parties (devant le juge civil). REJET de la demande de proratisation fiscale.
+			\end{itemize}
+		\end{solution}
+		
+	\end{questions}
+	
+\end{document}
